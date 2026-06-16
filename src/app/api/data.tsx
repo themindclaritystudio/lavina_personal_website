@@ -142,79 +142,128 @@ export const portfolioinfo = [
 
 export const publications = [
   {
-    slug: 'psychopathy-and-sociopathy',
-    image: getImgPath('/images/publications/psychopathy.jpg'),
-    title:
-      'Psychopathy and Sociopathy: A Modern Understanding of Antisocial Personality Disorder',
-    date: 'December 16, 2024',
-    category:
-      'Psychopathy, Antisocial Personality Disorder, Sociopathy',
-    info: 'Research Article',
+    slug: 'career-mentor',
+    image: getImgPath('/images/publications/career-mentor.jpg'),
+    title: 'Career Mentor: A Book to Decide a Right Career',
+    date: 'December 23, 2024',
+    category: 'Career Development, Mentorship',
+    info: 'Book / Research Publication',
     description:
-      'A contemporary review exploring psychopathy, sociopathy, and Antisocial Personality Disorder (ASPD).',
+      'A practical guide written to help individuals choose the right career path based on passion, talent, and opportunity.',
     content: `
-The term "sociopath" is often used arbitrarily to describe individuals who lack conscience, while "psychopath" is frequently associated with more dangerous antisocial behavior. Clinically, both terms are connected to Antisocial Personality Disorder (ASPD), characterized by a pervasive disregard for the rights and feelings of others.
+Author’s Preface
 
-This review examines the distinctions and similarities between psychopathy and sociopathy, explores their causes, signs, symptoms, and behavioral patterns, and provides a practical understanding of criminal and antisocial behavior from a psychological perspective.
+This book is written after research for all who are looking for a career option. As personally, I had suffered for long when I was looking for career options but I didn’t find any source.
 
-The article aims to increase awareness and understanding of these conditions, helping society differentiate between common misconceptions and clinically recognized personality disorders.
+Life gives us many opportunities; it’s all up to us to grab the opportunity and turn it in the best way as much I can do for it.   
+
+Many of you have different kinds of talents and you should go for it by choosing the right path and then your passion will help you keep moving forward. I would request parents to allow their children to do things of their interest that will create a healthy environment. My note to children is to follow their dreams and also obey their parents as they are ready to do anything to see you happy.
+
+Request a full copy of book via Email or you can read it for free on Kindle! 
+
+Link: https://www.amazon.in/Career-Mentor-Lavina-Pratap-Bhambhani-ebook/dp/B07TYZGXFG
     `,
   },
-
+  {
+    slug: 'forensic-analysis-of-narcotic-drugs',
+    image: getImgPath('/images/publications/forensic-narcotics.jpg'),
+    title: 'Forensic Analysis of Narcotic Drugs',
+    date: 'December 16, 2024',
+    category: 'Forensic Science, Narcotic Drugs',
+    info: 'Research Article',
+    description:
+      'A detailed review of the classification, analysis, and forensic investigation of narcotic and psychotropic drugs.',
+    content: `
+With the scientific progressions consistently; the new blends of medications are being concocted. The plants, and numerous other manufactured substances are aggregately utilized, and various types of medications are set up out of it. Thus, their characterizations, activity instruments and signs, results, measurements, course of organization, turn around responses are dissected and read inside and out for better agreement. The instrumental examination of medications utilizing mainstream techniques, for example, chromatography and mass spectrometry. These strategies require almost no measure of tests and are precise and dependable. The laws on opiate and psychotropic medications are outlined. Along these lines, this survey writing centers around investigation, law and history of opiate drugs and the view of narcotic drugs by the society.
+    `,
+  },
+  {
+    slug: 'forensic-science-explosives-and-explosion-investigation',
+    image: getImgPath('/images/publications/forensic-explosives.jpg'),
+    title: 'Forensic Science, Forensic Explosives and Explosion Investigation',
+    date: 'December 16, 2024',
+    category: 'Forensic Science, Explosion Investigation',
+    info: 'Research Article',
+    description:
+      'An exploration of the role of forensic sciences in investigating explosive crime scenes and analyzing evidence.',
+    content: `
+In the current researches, it is observed that forensic sciences play a vital role in the field of criminal investigation. Forensic sciences has many branches which individually is involved in presenting and collecting evidences at any crime scene. Precisely investigating the explosive crime scenes, the investigators are faced with circumstances which vary from having specific resources to collect evidences and preserve them. Thus, highly sophisticated instruments are used for analysis of the evidences obtained. While some aspects, such as chemical analysis and damage effects, are discussed here. The residues are collected and from which the explosive used is known and manufacturing companies can be traced. Hence, the purpose of forensic sciences and its applications in investigations of explosive crime scenes are discussed in this article.
+    `,
+  },
   {
     slug: 'exhibitionism-explored',
     image: getImgPath('/images/publications/exhibitionism.jpg'),
-    title:
-      'Exhibitionism Explored: Insights into the Deviant Act',
-    date: '2024',
-    category: 'Paraphilia Disorder',
+    title: 'Exhibitionism Explored: Insights into the Deviant Act',
+    date: 'December 16, 2024',
+    category: 'Paraphilia Disorder, Forensic Psychology',
     info: 'Research Publication',
     description:
-      'A multidisciplinary review examining exhibitionism, its causes, psychological foundations, and societal implications.',
+      'A multidisciplinary review examining exhibitionism, its psychological foundations, and societal impact.',
     content: `
-The prevalence of exhibitionism and its impact on both individuals and society has attracted significant attention among forensic psychologists and psychiatrists studying deviant sexual behavior.
 
-This publication explores the psychological and neurobiological foundations of exhibitionism, its prevalence, and its effects on victims and communities. It also examines the multidisciplinary approaches used to understand this behavior and discusses the legal and societal implications associated with such offenses.
 
-The findings contribute valuable insights for forensic experts, investigators, mental health professionals, and the criminal justice system.
+The prevalence of exhibitionism and its potential consequences for both individual well-being and societal standards have long attracted the attention of forensic psychologists and psychiatrists studying deviant sexual behaviour. Despite its frequency and the significant impact on victims, including children, it often receives less research attention compared to other sex offenses, such as child molestation or rape. This study has a two-fold purpose. Firstly, it seeks to provide a comprehensive understanding of exhibitionism by examining its psychological and neurobiological foundations, prevalence, and potential effects on individuals and society. Secondly, it reviews the multidisciplinary and concept map approach to exhibitionism, aiming to shed light on the psychological factors contributing to its development, as well as its societal and legal repercussions. Exhibitionism leaves victims traumatized and raises concerns for society and the Criminal Justice system. The outcomes of this research have significant implications for the field of crime investigations. It can enhance the understanding of investigations into complex sexual offence cases, providing valuable insights for experts, investigating officers, and the judicial system in the pursuit of justice.
     `,
   },
+  {
+    slug: 'psychopathy-and-sociopathy',
+    image: getImgPath('/images/publications/psychopathy.jpg'),
+    title: 'Psychopathy and Sociopathy: A Modern Understanding of Antisocial Personality Disorder',
+    date: 'December 16, 2024',
+    category: 'Psychopathy, Antisocial Personality Disorder, Sociopathy',
+    info: 'Research Article',
+    description:
+      'A contemporary review exploring the distinctions and similarities between psychopathy, sociopathy, and ASPD.',
+    content: `
 
+
+The term "Sociopath" often uses arbitrarily to describe a person who is non-conscience. The term "psychopath"suggests a sociopathic person who is simply more dangerous, like a serial killer or mass murder. Clinically, sociopathic or psychopathic are those people who exhibit the characteristics of antisocial personality disorder (ASPD), classified as pervasive disregard towards the rights and feelings of others. In the contemporary period both the term is considered separately to describe two types of ASPD. At times both the terms are used interchangeably though each has its lines of distinction that can be broadly described. This review focuses on the term’s “psychopath” and “sociopath”, criminal behavior is a practical, rational which draws upon theoretical science. It compresses of causes, signs, and symptoms which gives insight to better understand the particular behavior. Due to a lack of awareness in society about psychopaths they are generally considered villains, not like other patients suffering from disorders. However, sometimes we are unable to differentiate between sociopaths and psychopaths; attempts are made to clarify them easily.
+    `,
+  },
+  {
+    slug: 'alternatives-to-mitigate-corona',
+    image: getImgPath('/images/publications/covid-mitigation.jpg'),
+    title: 'Alternatives to Mitigate Corona',
+    date: 'December 16, 2024',
+    category: 'Covid-19, Public Health',
+    info: 'Research Article',
+    description:
+      'A review of strategies and scientific perspectives on mitigating Coronavirus.',
+    content: `
+
+
+Coronavirus is most pandemic virus and it is challenging too for the scholars and scientists to discover its vaccine. Like every organism in nature struggling for survival, they evolve or mutate. Similarly, the coronavirus has changed its genome sequence to adapt to the new species. In fact, research has shown COVID-19 has mutated repeatedly in ways to boost its survival which results in more difficulties to discover its vaccine. We can’t hit the coronavirus directly and neither our immune system is capable enough to fight with it, but by killing the infected cells, we can kill the corona virus too.
+    `,
+  },
   {
     slug: 'nanorobotics-theranostic-approach',
     image: getImgPath('/images/publications/nanorobotics.jpg'),
     title: 'Nanorobotics: A Theranostic Approach',
     date: 'December 16, 2024',
-    category: 'Nanorobotics',
+    category: 'Nanorobotics, Nanotechnology',
     info: 'Review Article',
     description:
-      'An overview of nanotechnology and nanorobotics in diagnostics, therapeutics, and advanced medical applications.',
+      'An overview of nanorobotics in diagnostics, drug delivery, and advanced medical therapeutics.',
     content: `
-Scientific advancements and modern technologies have transformed numerous fields through the development of nanotechnology.
 
-Nanorobotics represents a specialized branch of nanotechnology that incorporates sensing, signaling, information processing, and intelligent behavior at the nanoscale. This review highlights the role of nanorobotics in diagnostics, drug delivery systems, and treatment strategies for complex diseases such as cancer, Alzheimer's disease, and Parkinson's disease.
 
-The article also discusses current challenges, including nanotoxicity concerns, while emphasizing the immense future potential of nanorobotic systems in medicine and healthcare.
+Scientific advancements and modern vision holds a hand over every field of technology and sciences. The technology which, works at atomic level is called nanotechnology, deals with everything from medical sciences to electronics and a broad area of techniques. The high reactivity and desirable properties can be obtained after manipulation of bulk material at atomic level. Nanorobotics is a branch of nanotechnology – having characteristic features of actuating, sensing, signaling, information, processing and intelligence at nano scale. Nanorobotics in medication conveyance and therapeutics would be the next breakthrough in the medical sciences. In recent times, scientists are working towards developing smarter drug delivery system for rigid and complex diseases like Cancer, Alzheimer’s, Parkinson’s disorders and many more. The present review article focuses on the nanomaterial in the field of diagnostics and treatment with the brief introduction to the composition, mechanisms and their application in medicine. This technology has the potential to solve prime problems of the world. Due to nanotoxicity that comes along with these experiments, the field is yet to explore the depth of these techniques.
     `,
   },
-
   {
-    slug: 'bridging-human-intuition-and-ai',
-    image: getImgPath('/images/publications/ai-handwriting.jpg'),
-    title:
-      'Bridging Human Intuition and Artificial Intelligence',
-    date: '2025',
-    category: 'Artificial Intelligence & Psychology',
-    info: 'Research Publication',
+    slug: 'review-on-drug-doping',
+    image: getImgPath('/images/publications/drug-doping.jpg'),
+    title: 'Review on Drug Doping',
+    date: 'December 16, 2024',
+    category: 'Sports Science, Drug Doping',
+    info: 'Review Article',
     description:
-      'A review of psychological profiling through handwriting analysis and artificial intelligence.',
+      'A comprehensive review on the issue of doping in sports, its effects, detection, and legal aspects.',
     content: `
-This publication explores the intersection of traditional psychological profiling methods and modern artificial intelligence systems.
 
-The research examines how handwriting analysis can be integrated with AI-driven assessment tools to enhance behavioral interpretation, personality profiling, and predictive analytics.
 
-It highlights opportunities, limitations, and ethical considerations while proposing future directions for combining human intuition with machine intelligence.
+With the rise in competition and the pressure that comes along with it, Doping is now a serious concern at international level in sportphysiology. Doping is the abuse of drugs which expands one's red platelets and permits the body to get more oxygen to muscles and increase the stamina of sport player. This isn’t just concerned with the wellbeing of the players or the risk involved in their usage but also with theunfairness that it brings into the spirit of sports. This is legitimately influencing games, rivalries around the globe. Looking at the historical backdrop of doping, the various classes of substances utilized for doping, reactions of doping and treatment of influenced competitors, we find its strong roots in this system. Medications have continued creating with "impels" in doping systems. These are driven by improved adjustment testing, recognizable proof methods and advances in sensible research that, can provoke the disclosure and utilization of substances that may later be restricted by various games affiliation. The continuous upgradation of drugs further enhance the results of doping. There are seen a rundown quantities of perilous symptoms that, happened because of blood doping like myocardium, stroke, diseases similar to HIV, hepatitis and so forth. This review article briefs abuse of doping drugs, side effects, their treatments and laws related to them.
     `,
   },
-]
+];
 

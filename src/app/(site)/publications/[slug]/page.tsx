@@ -54,9 +54,6 @@ export default function PublicationDetails({
           </p>
 
           <div className="mt-10 rounded-3xl bg-section p-8 dark:bg-darklight">
-            <h2 className="mb-6 text-2xl font-bold">
-              Abstract
-            </h2>
 
             <p className="leading-8 text-grey dark:text-white/70">
               {publication.content}
