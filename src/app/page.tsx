@@ -19,7 +19,7 @@ export default function Home() {
       <Hero />
       <Counter isColorMode={false} />
       <Progresswork isColorMode={false} />
-       <Portfolio />
+       {/* <Portfolio /> */}
       <Services />
      
       {/* <Testimonial />

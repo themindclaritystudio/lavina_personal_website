@@ -56,7 +56,7 @@ const Hero = () => {
           </Link>
 
           <Link
-            href="/contact"
+            href="/contact#contact-form"
             className="w-full sm:w-auto rounded-lg border border-border px-8 py-3 text-center font-medium text-midnight_text transition-all duration-300 hover:bg-neutral-100 dark:border-white/20 dark:text-white dark:hover:bg-white/10"
           >
             Connect With Me

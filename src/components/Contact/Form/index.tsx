@@ -7,7 +7,7 @@ import { getImgPath } from '@/utils/image'
 const ContactForm = () => {
 
   return (
-    <section className="bg-white py-16 md:py-24 dark:bg-darkmode">
+    <section id='contact-form' className="bg-white py-16 md:py-24 dark:bg-darkmode">
       <div className="container mx-auto max-w-6xl px-5">
         <div className="grid items-center gap-12 lg:grid-cols-2">
 

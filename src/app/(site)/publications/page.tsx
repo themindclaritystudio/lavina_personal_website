@@ -55,9 +55,7 @@ export default function WorksPage() {
                   </h2>
 
                   <p className="mt-4 text-grey dark:text-white/60">
-                    Explore research, insights, and contributions focused
-                    on psychology, human behavior, emotional wellbeing,
-                    and personal transformation.
+                    
                   </p>
 
                   <Link

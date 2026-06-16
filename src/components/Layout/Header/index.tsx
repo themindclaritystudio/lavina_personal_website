@@ -71,7 +71,7 @@ className={`fixed top-0 z-50 h-24 w-full py-1 transition-all ${
 
       {/* CTA */}
       <Link
-        href="#contact"
+        href="/contact#contact-form"
         className="hidden rounded-xl bg-primary px-6 py-3 text-sm font-medium text-white transition-all duration-300 hover:opacity-90 lg:inline-flex"
       >
         Get In Touch
@@ -121,7 +121,7 @@ className={`fixed top-0 z-50 h-24 w-full py-1 transition-all ${
       ))}
 
       <Link
-        href="#contact"
+        href="/contact#contact-form"
         onClick={() => setNavbarOpen(false)}
         className="mt-6 rounded-xl bg-primary px-5 py-3 text-center font-medium text-white"
       >
