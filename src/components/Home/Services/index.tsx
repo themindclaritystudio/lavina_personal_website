@@ -55,11 +55,7 @@ const Services = () => {
           data-aos="fade-up"
           data-aos-duration="1000"
         >
-<<<<<<< HEAD
-          <span className="h-3 w-3 rounded-full bg-success"></span>
-=======
           <span className="h-2 w-2 rounded-full bg-success"></span>
->>>>>>> faabffe153b159d74b76e869432523adeb5bc3ab
           <span className="text-sm font-medium text-midnight_text dark:text-white/50">
             Services & Expertise
           </span>
@@ -82,11 +78,7 @@ const Services = () => {
           data-aos-duration="1000"
         >
           Through psychology, coaching, education, and mentorship,
-<<<<<<< HEAD
-          Lavina empowers individuals to overcome challenges,
-=======
           Lavina Pratap Bhambhani empowers individuals to overcome challenges,
->>>>>>> faabffe153b159d74b76e869432523adeb5bc3ab
           strengthen their mindset, and create meaningful personal
           transformation.
         </p>

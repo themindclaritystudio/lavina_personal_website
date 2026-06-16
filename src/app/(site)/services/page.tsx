@@ -6,11 +6,7 @@ import Counter from "@/components/Home/Counter";
 import Progresswork from "@/components/Home/WorkProgress";
 import Services from "@/components/Home/Services";
 export const metadata: Metadata = {
-<<<<<<< HEAD
-    title: "Services | Venus",
-=======
     title: "Services | Lavina Pratap Bhambhani",
->>>>>>> faabffe153b159d74b76e869432523adeb5bc3ab
 };
 
 const page = () => {

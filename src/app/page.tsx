@@ -10,11 +10,7 @@ import Blog from '@/components/SharedComponent/Blog'
 import Experience from '@/components/Home/Experience'
 import Contactform from '@/components/Home/Contact';
 export const metadata: Metadata = {
-<<<<<<< HEAD
-  title: "Venus",
-=======
   title: "Lavina Pratap Bhambhani",
->>>>>>> faabffe153b159d74b76e869432523adeb5bc3ab
 };
 
 export default function Home() {
@@ -23,14 +19,9 @@ export default function Home() {
       <Hero />
       <Counter isColorMode={false} />
       <Progresswork isColorMode={false} />
-<<<<<<< HEAD
+       <Portfolio />
       <Services />
-      <Portfolio />
-=======
-      <Portfolio />
-      <Services />
-      
->>>>>>> faabffe153b159d74b76e869432523adeb5bc3ab
+     
       {/* <Testimonial />
       <Blog /> */}
       <Experience />

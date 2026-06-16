@@ -9,11 +9,7 @@ const Logo = () => {
     <Link href="/" className="flex items-center">
       <Image
         src={getImgPath('/images/logo/logo.png')}
-<<<<<<< HEAD
         alt="Lavina Pratap Bhambhani"
-=======
-        alt="Lavina Pratap Bhambhani Pratap Bhambhani"
->>>>>>> faabffe153b159d74b76e869432523adeb5bc3ab
         width={260}
         height={130}
         priority
@@ -23,11 +19,7 @@ const Logo = () => {
 
       <Image
         src={getImgPath('/images/logo/logo.png')}
-<<<<<<< HEAD
         alt="Lavina Pratap Bhambhani"
-=======
-        alt="Lavina Pratap Bhambhani Pratap Bhambhani"
->>>>>>> faabffe153b159d74b76e869432523adeb5bc3ab
         width={260}
         height={130}
         priority
