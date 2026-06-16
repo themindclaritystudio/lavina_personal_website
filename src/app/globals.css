@@ -1,0 +1,161 @@
+@import 'tailwindcss';
+
+@custom-variant dark (&:is(.dark *));
+
+@theme {
+--spacing-6xl: 75rem;
+--container-screen-2xl: 83.75rem;
+
+/* Neutral Shadows */
+--shadow-service: 0 2px 10px rgba(0, 0, 0, 0.05);
+--shadow-deatail_shadow: 0 12px 40px rgba(0, 0, 0, 0.08);
+--shadow-dark-md: 0 4px 12px rgba(0, 0, 0, 0.1);
+
+--transition-duration-150: 150ms;
+
+--spacing-25: 25rem;
+--spacing-29: 28rem;
+--spacing-45: 45rem;
+--spacing-50: 50rem;
+--spacing-94: 22.5rem;
+--spacing-120: 120rem;
+--spacing-6_25: 6.25rem;
+--spacing-70%: 70%;
+--spacing-40%: 40%;
+--spacing-30%: 30%;
+--spacing-60%: 60%;
+--spacing-8_5: 8.5rem;
+--spacing-3_75: 3.75rem;
+
+--height-150: 750px;
+--height-6_25: 6.25rem;
+
+--leading-extra-loose: 2.5;
+--leading-2_5: 2.5rem;
+
+--inset-5%: 5%;
+--inset-35%: 35%;
+
+--z-index-1: 1;
+--z-index-2: 2;
+--z-index-999: 999;
+
+/* Neutral Light Theme */
+--color-primary: #171717;
+--color-secondary: #525252;
+--color-midnight_text: #171717;
+--color-grey: #737373;
+--color-border: #e5e5e5;
+--color-success: #22c55e;
+
+/* Backgrounds */
+--color-section: #fafafa;
+--color-darkmode: #ffffff;
+--color-darklight: #f5f5f5;
+--color-dark_border: #d4d4d4;
+--color-Sky-blue-mist: #f5f5f5;
+
+--background-image-gradient-radial: radial-gradient(
+var(--tw-gradient-stops)
+);
+--background-image-gradient-conic: conic-gradient(
+from 180deg at 50% 50%,
+var(--tw-gradient-stops)
+);
+}
+
+/*
+Tailwind CSS v4 compatibility
+*/
+@layer base {
+*,
+::after,
+::before,
+::backdrop,
+::file-selector-button {
+border-color: var(--color-gray-200, currentColor);
+}
+}
+
+html {
+scroll-behavior: smooth;
+overflow-x: hidden;
+}
+
+body {
+@apply overflow-x-hidden bg-white text-midnight_text;
+}
+
+@layer base {
+section {
+@apply py-16;
+}
+}
+
+.margin_top {
+@apply mt-0 md:mt-[6.25rem];
+}
+
+/* Slick Slider */
+.slick-slide,
+.portfolio_slide {
+@apply focus-visible:outline-0!;
+}
+
+.slick-dots li.slick-active button:before {
+@apply h-4! w-4! text-primary! opacity-100!;
+}
+
+.slick-dots li button:before {
+@apply text-base! text-gray-400! opacity-100!;
+}
+
+/* Blog Details */
+
+.blog-details p,
+.blog-details hr {
+@apply mb-8;
+}
+
+.blog-details hr {
+@apply border-border dark:border-dark_border;
+}
+
+.blog-details strong {
+@apply font-bold text-midnight_text dark:text-white;
+}
+
+.blog-details ul {
+@apply mb-8 list-inside list-disc space-y-3;
+}
+
+.blog-details ol {
+@apply mb-8 list-inside list-decimal space-y-3;
+}
+
+.blog-details h1 {
+@apply mb-8 text-3xl font-bold text-midnight_text sm:text-4xl md:text-[40px] md:leading-[1.28] dark:text-white;
+}
+
+.blog-details h2 {
+@apply mb-8 text-2xl font-bold text-midnight_text sm:text-3xl md:text-[35px] md:leading-[1.28] dark:text-white;
+}
+
+.blog-details h3 {
+@apply mb-6 text-2xl font-bold sm:text-[28px] sm:leading-[40px] dark:text-white;
+}
+
+.blog-details h4,
+.blog-details h5,
+.blog-details h6 {
+@apply mb-4 font-bold text-midnight_text dark:text-white;
+}
+
+.blog-details a {
+@apply text-primary transition-colors duration-150 hover:text-neutral-700;
+}
+
+.blog-details blockquote {
+@apply my-8 border-l-4 border-neutral-300 bg-neutral-50 p-6 italic;
+}
+
