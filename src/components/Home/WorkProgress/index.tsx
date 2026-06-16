@@ -23,9 +23,9 @@ const Progresswork = ({
         >
           {/* Section Label */}
           <div className="flex items-center justify-center gap-2">
-            <span className="h-3 w-3 rounded-full bg-success"></span>
+            <span className="h-2 w-2 rounded-full bg-success"></span>
             <span className="text-sm font-medium text-secondary dark:text-white/60">
-              About Lavina
+              About Lavina Pratap Bhambhani
             </span>
           </div>
 
@@ -37,7 +37,7 @@ const Progresswork = ({
 
           {/* Description */}
           <p className="mx-auto mt-6 max-w-3xl text-center text-lg leading-relaxed text-grey dark:text-white/70">
-            Lavina Pratap Bhambhani is a psychologist, educator,
+          Lavina Pratap Bhambhani  is a psychologist, educator,
             researcher, author, and mindset coach dedicated to helping
             individuals unlock their true potential. Through a blend of
             academic excellence, psychological insight, and practical

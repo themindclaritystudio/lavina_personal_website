@@ -9,7 +9,7 @@ import Testimonial from '@/components/SharedComponent/Testimonial'
 import Blog from '@/components/SharedComponent/Blog'
 import Contactform from '@/components/Home/Contact';
 export const metadata: Metadata = {
-  title: "Lavina",
+  title: "Lavina Pratap Bhambhani",
 };
 
 export default function Home() {

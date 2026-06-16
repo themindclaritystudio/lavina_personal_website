@@ -9,7 +9,7 @@ const Logo = () => {
     <Link href="/" className="flex items-center">
       <Image
         src={getImgPath('/images/logo/logo.png')}
-        alt="Lavina Pratap Bhambhani"
+        alt="Lavina Pratap Bhambhani Pratap Bhambhani"
         width={260}
         height={130}
         priority
@@ -19,7 +19,7 @@ const Logo = () => {
 
       <Image
         src={getImgPath('/images/logo/logo.png')}
-        alt="Lavina Pratap Bhambhani"
+        alt="Lavina Pratap Bhambhani Pratap Bhambhani"
         width={260}
         height={130}
         priority

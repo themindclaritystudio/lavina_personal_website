@@ -4,7 +4,7 @@ import Image from 'next/image'
 import { getImgPath } from '@/utils/image'
 
 export const metadata: Metadata = {
-  title: 'About | Lavina Pratap Bhambhani',
+  title: 'About | Lavina Pratap Bhambhani Pratap Bhambhani',
 }
 
 export default function AboutPage() {
@@ -20,7 +20,7 @@ export default function AboutPage() {
             <div>
               <span className="inline-flex items-center gap-2 text-sm font-medium text-primary">
                 <span className="h-2.5 w-2.5 rounded-full bg-green-500" />
-                About Lavina
+                About Lavina Pratap Bhambhani
               </span>
 
               <h1 className="mt-6 text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold leading-tight text-midnight_text dark:text-white">
@@ -28,7 +28,7 @@ export default function AboutPage() {
               </h1>
 
               <p className="mt-6 text-base md:text-lg leading-8 text-grey dark:text-white/70">
-                Lavina Pratap Bhambhani is dedicated to understanding human
+              Lavina Pratap Bhambhani  is dedicated to understanding human
                 behavior, promoting emotional well-being, and empowering
                 individuals through education, research, and mentorship.
               </p>
@@ -46,7 +46,7 @@ export default function AboutPage() {
             <div className="flex justify-center">
               <Image
                 src={getImgPath('/images/hero/lavina-hero.png')}
-                alt="Lavina Pratap Bhambhani"
+                alt="Lavina Pratap Bhambhani Pratap Bhambhani"
                 width={700}
                 height={850}
                 priority
@@ -147,7 +147,7 @@ export default function AboutPage() {
           <div className="rounded-3xl border border-primary/10 bg-primary/5 px-6 py-10 md:px-12 text-center">
 
             <p className="text-lg md:text-xl italic leading-relaxed text-midnight_text dark:text-white/80">
-              “For Stronger Minds, Think Lavina.”
+              “For Stronger Minds, Think Lavina Pratap Bhambhani.”
             </p>
 
           </div>

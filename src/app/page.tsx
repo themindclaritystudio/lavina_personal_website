@@ -10,7 +10,7 @@ import Blog from '@/components/SharedComponent/Blog'
 import Experience from '@/components/Home/Experience'
 import Contactform from '@/components/Home/Contact';
 export const metadata: Metadata = {
-  title: "Venus",
+  title: "Lavina Pratap Bhambhani",
 };
 
 export default function Home() {
@@ -19,8 +19,9 @@ export default function Home() {
       <Hero />
       <Counter isColorMode={false} />
       <Progresswork isColorMode={false} />
-      <Services />
       <Portfolio />
+      <Services />
+      
       {/* <Testimonial />
       <Blog /> */}
       <Experience />

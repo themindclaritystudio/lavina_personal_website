@@ -15,7 +15,7 @@ const Footer = () => {
           <div className="text-center lg:text-left">
             <Image
               src={getImgPath('/images/logo/logo.png')}
-              alt="Lavina Pratap Bhambhani"
+              alt="Lavina Pratap Bhambhani Pratap Bhambhani"
               width={220}
               height={100}
               priority
@@ -138,7 +138,7 @@ const Footer = () => {
             </Link>
 
             <blockquote className="mt-8 border-l-2 border-primary pl-5 italic text-grey dark:text-white/60">
-              “For Stronger Minds, Think Lavina.”
+              “For Stronger Minds, Think Lavina Pratap Bhambhani.”
             </blockquote>
           </div>
         </div>
@@ -148,7 +148,7 @@ const Footer = () => {
       <div className="border-t border-neutral-200 dark:border-white/10">
         <div className="container mx-auto max-w-7xl px-5 py-6">
           <p className="text-center text-sm text-grey dark:text-white/50">
-            © {new Date().getFullYear()} Lavina Pratap Bhambhani. All Rights
+            © {new Date().getFullYear()} Lavina Pratap Bhambhani Pratap Bhambhani. All Rights
             Reserved.
           </p>
         </div>
