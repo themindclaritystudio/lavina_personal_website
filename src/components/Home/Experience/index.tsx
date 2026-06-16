@@ -177,17 +177,18 @@ const Experience = () => {
                 <div className="lg:w-1/2 lg:px-12">
   <div className="rounded-3xl bg-white p-6 shadow-sm transition-all duration-500 hover:-translate-y-2 hover:shadow-xl dark:bg-darklight">
 
-    <div className="flex flex-col gap-6 sm:flex-row sm:items-center">
+   <div className="flex flex-col gap-6 md:flex-row md:items-center">
 
       {/* Image */}
-      <div className="relative h-32 w-full overflow-hidden rounded-2xl sm:h-32 sm:w-32 shrink-0">
-        <Image
-          src={item.image}
-          alt={item.title}
-          fill
-          className="object-cover transition-transform duration-700 hover:scale-105"
-        />
-      </div>
+     <div className="relative h-52 w-full overflow-hidden rounded-2xl sm:h-40 sm:w-40 lg:h-44 lg:w-44 shrink-0">
+  <Image
+    src={item.image}
+    alt={item.title}
+    fill
+    sizes="(max-width: 640px) 100vw, 176px"
+    className="object-cover object-center transition-transform duration-700 hover:scale-105"
+  />
+</div>
 
       {/* Content */}
       <div className="flex-1">
