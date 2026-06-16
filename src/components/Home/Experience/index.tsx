@@ -50,7 +50,11 @@ const Experience = () => {
 
           <p className="mx-auto mt-6 max-w-3xl text-lg leading-relaxed text-gray-600">
             Through psychology, education, research, and mentorship,
+<<<<<<< HEAD
             Lavina has dedicated her career to empowering individuals
+=======
+            Lavina Pratap Bhambhani has dedicated her career to empowering individuals
+>>>>>>> faabffe153b159d74b76e869432523adeb5bc3ab
             and fostering meaningful transformation.
           </p>
         </div>

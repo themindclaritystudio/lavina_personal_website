@@ -26,8 +26,13 @@ export default function RootLayout({
       <SessionProviderComp session={session}>
         <ThemeProvider
           attribute="class"
+<<<<<<< HEAD
           enableSystem={true}
           defaultTheme="system"
+=======
+          enableSystem={false}
+          defaultTheme="light"
+>>>>>>> faabffe153b159d74b76e869432523adeb5bc3ab
         >
           <Aoscompo>
             <Header />

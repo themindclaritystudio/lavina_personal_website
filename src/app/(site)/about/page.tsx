@@ -4,7 +4,11 @@ import Image from 'next/image'
 import { getImgPath } from '@/utils/image'
 
 export const metadata: Metadata = {
+<<<<<<< HEAD
   title: 'About | Lavina Pratap Bhambhani',
+=======
+  title: 'About | Lavina Pratap Bhambhani Pratap Bhambhani',
+>>>>>>> faabffe153b159d74b76e869432523adeb5bc3ab
 }
 
 export default function AboutPage() {
@@ -20,7 +24,11 @@ export default function AboutPage() {
             <div>
               <span className="inline-flex items-center gap-2 text-sm font-medium text-primary">
                 <span className="h-2.5 w-2.5 rounded-full bg-green-500" />
+<<<<<<< HEAD
                 About Lavina
+=======
+                About Lavina Pratap Bhambhani
+>>>>>>> faabffe153b159d74b76e869432523adeb5bc3ab
               </span>
 
               <h1 className="mt-6 text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold leading-tight text-midnight_text dark:text-white">
@@ -28,7 +36,11 @@ export default function AboutPage() {
               </h1>
 
               <p className="mt-6 text-base md:text-lg leading-8 text-grey dark:text-white/70">
+<<<<<<< HEAD
                 Lavina Pratap Bhambhani is dedicated to understanding human
+=======
+              Lavina Pratap Bhambhani  is dedicated to understanding human
+>>>>>>> faabffe153b159d74b76e869432523adeb5bc3ab
                 behavior, promoting emotional well-being, and empowering
                 individuals through education, research, and mentorship.
               </p>
@@ -46,7 +58,11 @@ export default function AboutPage() {
             <div className="flex justify-center">
               <Image
                 src={getImgPath('/images/hero/lavina-hero.png')}
+<<<<<<< HEAD
                 alt="Lavina Pratap Bhambhani"
+=======
+                alt="Lavina Pratap Bhambhani Pratap Bhambhani"
+>>>>>>> faabffe153b159d74b76e869432523adeb5bc3ab
                 width={700}
                 height={850}
                 priority
@@ -147,7 +163,11 @@ export default function AboutPage() {
           <div className="rounded-3xl border border-primary/10 bg-primary/5 px-6 py-10 md:px-12 text-center">
 
             <p className="text-lg md:text-xl italic leading-relaxed text-midnight_text dark:text-white/80">
+<<<<<<< HEAD
               “For Stronger Minds, Think Lavina.”
+=======
+              “For Stronger Minds, Think Lavina Pratap Bhambhani.”
+>>>>>>> faabffe153b159d74b76e869432523adeb5bc3ab
             </p>
 
           </div>

@@ -21,7 +21,11 @@ const Hero = () => {
       >
         {/* Badge */}
         <div className="mb-5 flex items-center justify-center lg:justify-start gap-2">
+<<<<<<< HEAD
           <span className="h-3 w-3 rounded-full bg-green-500" />
+=======
+          <span className="h-2 w-2 rounded-full bg-green-500" />
+>>>>>>> faabffe153b159d74b76e869432523adeb5bc3ab
           <span className="text-xs sm:text-sm font-medium tracking-wide text-secondary dark:text-white/60">
             Psychologist • Mind Coach • Educator • Researcher • Author
           </span>
@@ -29,12 +33,20 @@ const Hero = () => {
 
         {/* Name */}
         <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-6xl xl:text-7xl font-bold leading-tight text-midnight_text dark:text-white">
+<<<<<<< HEAD
           Lavina Pratap Bhambhani
+=======
+        Lavina Pratap Bhambhani 
+>>>>>>> faabffe153b159d74b76e869432523adeb5bc3ab
         </h1>
 
         {/* Tagline */}
         <p className="mt-4 text-lg sm:text-xl md:text-2xl font-semibold text-primary">
+<<<<<<< HEAD
           For Stronger Minds, Think Lavina!
+=======
+          For Stronger Minds, Think Lavina Pratap Bhambhani!
+>>>>>>> faabffe153b159d74b76e869432523adeb5bc3ab
         </p>
 
         {/* Description */}
@@ -125,7 +137,11 @@ const Hero = () => {
           <div className="relative overflow-hidden rounded-3xl shadow-deatail_shadow">
             <Image
               src={getImgPath('/images/hero/lavina-hero.png')}
+<<<<<<< HEAD
               alt="Lavina Pratap Bhambhani"
+=======
+              alt="Lavina Pratap Bhambhani Pratap Bhambhani"
+>>>>>>> faabffe153b159d74b76e869432523adeb5bc3ab
               width={700}
               height={850}
               priority
