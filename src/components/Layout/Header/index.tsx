@@ -45,8 +45,16 @@ return () => {
 }, [navbarOpen])
 
 useEffect(() => {
-document.body.style.overflow = navbarOpen ? 'hidden' : ''
+  document.body.style.overflow = navbarOpen ? 'hidden' : 'auto'
+
+  return () => {
+    document.body.style.overflow = 'auto'
+  }
 }, [navbarOpen])
+useEffect(() => {
+  setNavbarOpen(false)
+  document.body.style.overflow = 'auto'
+}, [pathUrl])
 
 return (
 <header
@@ -91,17 +99,18 @@ className={`fixed top-0 z-50 h-24 w-full py-1 transition-all ${
   </div>
 
   {/* Overlay */}
-  {navbarOpen && (
-    <div className="fixed left-0 top-0 z-40 h-full w-full bg-black/50" />
-  )}
+ {/* Overlay */}
+{navbarOpen && (
+  <div className="fixed inset-0 z-[998] bg-black/50" />
+)}
 
-  {/* Mobile Menu */}
-  <div
-    ref={mobileMenuRef}
-    className={`fixed right-0 top-0 z-50 h-full w-full max-w-xs bg-white shadow-lg transition-transform duration-300 dark:bg-darkmode ${
-      navbarOpen ? 'translate-x-0' : 'translate-x-full'
-    }`}
-  >
+{/* Mobile Menu */}
+<div
+  ref={mobileMenuRef}
+  className={`fixed right-0 top-0 z-[999] h-screen w-full max-w-xs bg-white shadow-xl transition-transform duration-300 dark:bg-darkmode ${
+    navbarOpen ? 'translate-x-0' : 'translate-x-full'
+  }`}
+>
     <div className="flex items-center justify-between p-5">
       <h2 className="text-lg font-bold text-midnight_text dark:text-white">
         Menu

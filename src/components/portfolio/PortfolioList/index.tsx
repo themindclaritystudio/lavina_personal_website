@@ -9,7 +9,7 @@ const GalleryList = () => {
   return (
     <section
   id="gallery"
-  className="bg-section py-20 dark:bg-darklight lg:py-28"
+  className="bg-section py-28 dark:bg-darklight lg:py-28"
 >
       <div className="container mx-auto max-w-7xl px-5">
         {/* Section Header */}

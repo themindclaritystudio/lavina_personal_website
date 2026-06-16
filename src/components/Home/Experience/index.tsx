@@ -136,7 +136,7 @@ const Experience = () => {
   return (
     <section
       id="experience"
-      className="bg-[#FAF7F2] py-20 lg:py-28 dark:bg-darkmode"
+      className="bg-[#FAF7F2] py-28 lg:py-28 dark:bg-darkmode"
     >
       <div className="container mx-auto max-w-6xl px-5">
         {/* Heading */}
