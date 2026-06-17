@@ -47,13 +47,13 @@ const GalleryList = () => {
                 />
               </div>
 
-              <h4 className="pt-6 text-xl font-bold text-midnight_text transition-colors group-hover:text-primary dark:text-white">
+              {/* <h4 className="pt-6 text-xl font-bold text-midnight_text transition-colors group-hover:text-primary dark:text-white">
                 {item.title}
               </h4>
 
               <p className="mt-2 text-secondary dark:text-white/60">
                 {item.info}
-              </p>
+              </p> */}
             </div>
           ))}
         </div>
