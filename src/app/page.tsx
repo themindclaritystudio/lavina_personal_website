@@ -24,7 +24,7 @@ export default function Home() {
      
       {/* <Testimonial />
       <Blog /> */}
-      {/* <Experience /> */}
+       {/* <Experience /> */}
       {/* <Contactform /> */}
     </main>
   )
