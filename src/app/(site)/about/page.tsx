@@ -20,17 +20,15 @@ export default function AboutPage() {
             <div>
               <span className="inline-flex items-center gap-2 text-sm font-medium text-primary">
                 <span className="h-2.5 w-2.5 rounded-full bg-green-500" />
-                About Lavina Pratap Bhambhani
+                About Dr. Lavina Pratap Bhambhani
               </span>
 
               <h1 className="mt-6 text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold leading-tight text-midnight_text dark:text-white">
-                Psychologist, Researcher, Educator & Author
+                Empowering Minds Through Psychology, Education & Research
               </h1>
 
               <p className="mt-6 text-base md:text-lg leading-8 text-grey dark:text-white/70">
-                Lavina Pratap Bhambhani is dedicated to understanding human
-                behavior, promoting emotional well-being, and empowering
-                individuals through education, research, and mentorship.
+                Dr. Lavina Pratap Bhambhani is a psychologist, educator, researcher, and author dedicated to advancing mental well-being, lifelong learning, and personal growth. Through a blend of psychological insight, academic expertise, and evidence-based practice, she empowers individuals to develop emotional resilience, self-awareness, critical thinking, and meaningful life skills.
               </p>
 
               <p className="mt-5 text-base md:text-lg leading-8 text-grey dark:text-white/70">
@@ -95,20 +93,18 @@ export default function AboutPage() {
               </h3>
 
               <p className="mt-3 text-sm leading-7 text-grey dark:text-white/60">
-                Human behavior, emotional resilience, mental well-being, and
-                psychological understanding.
+               Supporting mental well-being through psychological insight, emotional resilience, self-awareness, and personal growth.
               </p>
             </div>
 
             {/* Card 2 */}
             <div className="group rounded-2xl border border-border bg-white p-6 text-center shadow-sm transition-all duration-500 hover:-translate-y-2 hover:border-primary/30 hover:shadow-xl dark:border-white/10 dark:bg-darklight">
               <h3 className="text-xl font-bold text-primary">
-                Research
+                Research & Writing
               </h3>
 
               <p className="mt-3 text-sm leading-7 text-grey dark:text-white/60">
-                Academic publications, interdisciplinary studies, forensic
-                psychology, and scientific inquiry.
+                Advancing knowledge through academic research, publications, interdisciplinary studies, and professional writing.
               </p>
             </div>
 
@@ -119,20 +115,18 @@ export default function AboutPage() {
               </h3>
 
               <p className="mt-3 text-sm leading-7 text-grey dark:text-white/60">
-                Teaching, mentoring, training, and knowledge sharing for
-                personal and professional growth.
+                Fostering learning through teaching, mentorship, academic development, and research-driven education.
               </p>
             </div>
 
             {/* Card 4 */}
             <div className="group rounded-2xl border border-border bg-white p-6 text-center shadow-sm transition-all duration-500 hover:-translate-y-2 hover:border-primary/30 hover:shadow-xl dark:border-white/10 dark:bg-darklight">
               <h3 className="text-xl font-bold text-primary">
-                Personal Growth
+                Mentorship & Development
               </h3>
 
               <p className="mt-3 text-sm leading-7 text-grey dark:text-white/60">
-                Coaching, self-awareness, confidence building, emotional
-                intelligence, and transformation.
+                Guiding individuals toward greater confidence, self-awareness, resilience, and lifelong growth.
               </p>
             </div>
 

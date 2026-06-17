@@ -23,7 +23,7 @@ const Hero = () => {
         <div className="mb-5 flex items-center justify-center lg:justify-start gap-2">
           <span className="h-2 w-2 rounded-full bg-green-500" />
           <span className="text-xs sm:text-sm font-medium tracking-wide text-secondary dark:text-white/60">
-            Psychologist • Mind Coach • Educator • Researcher • Author
+            Psychologist • Educator • Researcher • Author
           </span>
         </div>
 
@@ -34,16 +34,12 @@ const Hero = () => {
 
         {/* Tagline */}
         <p className="mt-4 text-lg sm:text-xl md:text-2xl font-semibold text-primary">
-          For Stronger Minds, Think Lavina Pratap Bhambhani!
+          For Stronger Minds, Think Lavina Pratap Bhambhani
         </p>
 
         {/* Description */}
         <p className="mt-6 max-w-2xl mx-auto lg:mx-0 text-base sm:text-lg md:text-xl leading-relaxed text-grey dark:text-white/70">
-          Dedicated to empowering individuals through psychology,
-          education, coaching, and research. Helping people cultivate
-          emotional resilience, mental clarity, self-awareness, and
-          meaningful personal growth through evidence-based guidance
-          and transformative learning experiences.
+          Dr. Lavina Pratap Bhambhani is dedicated to advancing mental well-being through psychology, education, research, and personal development. Through evidence-based guidance, teaching, and mentorship, she empowers individuals to build emotional resilience, deepen self-awareness, and create meaningful, lasting positive change.
         </p>
 
         {/* Buttons */}
@@ -85,11 +81,11 @@ const Hero = () => {
 
           <div>
             <h3 className="text-lg sm:text-xl font-bold text-primary">
-              Coach
+              Researcher 
             </h3>
             <p className="text-xs sm:text-sm text-grey dark:text-white/60">
-              Personal Transformation
-            </p>
+              Psychology & Social Sciences            
+              </p>
           </div>
 
           <div>
@@ -105,9 +101,7 @@ const Hero = () => {
         {/* Quote */}
         <div className="mt-10 max-w-xl mx-auto lg:mx-0 border-t border-border pt-6 dark:border-white/10">
           <p className="italic text-sm sm:text-base leading-relaxed text-grey dark:text-white/60">
-            "Every individual possesses the potential to grow,
-            transform, and thrive. The journey begins with
-            understanding the mind and embracing lifelong learning."
+            "Understanding the mind is the first step toward meaningful growth, emotional well-being, and lifelong learning."
           </p>
         </div>
       </div>

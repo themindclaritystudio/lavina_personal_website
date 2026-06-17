@@ -168,20 +168,23 @@ export const count = [
   {
     icon: 'mdi:book-open-page-variant-outline',
     value: '10+',
+    title: 'Publications & Research Contributions',
     description:
-      'Research papers, articles, and academic publications across psychology and interdisciplinary studies.',
+      'Research papers, articles, and academic publications across psychology, education, and interdisciplinary studies.',
   },
   {
     icon: 'mdi:school-outline',
     value: '5+',
+    title: 'Areas of Expertise',
     description:
-      'Core domains of expertise including Psychology, Research, Education, Mentoring, and Personal Development.',
+      'Psychology, Education, Research, Mentorship, and Personal Development.',
   },
   {
     icon: 'mdi:brain',
     value: '100%',
+    title: 'Dedication to Empowerment',
     description:
-      'Commitment to empowering individuals through learning, self-awareness, and emotional growth.',
+      'Supporting individuals through evidence-based learning, self-awareness, and personal growth.',
   },
 ]
 
