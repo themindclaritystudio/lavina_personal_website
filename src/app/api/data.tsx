@@ -301,7 +301,7 @@ export const portfolioinfo = [
 export const publications = [
   {
     slug: 'career-mentor',
-    image: getImgPath('/images/publications/career-mentor.jpg'),
+    image: 'https://user-images.strikinglycdn.com/res/hrscywv4p/image/upload/f_auto,q_auto,w_4096/unsplashcom/photo-1681287584712-2df730c0b28b?h=1500&w=2000&fit=clip&fm=jpg',
     title: 'Career Mentor: A Book to Decide a Right Career',
     date: 'December 23, 2024',
     category: 'Career Development, Mentorship',
@@ -324,7 +324,7 @@ Link: https://www.amazon.in/Career-Mentor-Lavina-Pratap-Bhambhani-ebook/dp/B07TY
   },
   {
     slug: 'forensic-analysis-of-narcotic-drugs',
-    image: getImgPath('/images/publications/forensic-narcotics.jpg'),
+    image: 'https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_1500,w_2000,f_auto,q_auto/18742590/546810_32670.jpeg',
     title: 'Forensic Analysis of Narcotic Drugs',
     date: 'December 16, 2024',
     category: 'Forensic Science, Narcotic Drugs',
@@ -337,7 +337,7 @@ With the scientific progressions consistently; the new blends of medications are
   },
   {
     slug: 'forensic-science-explosives-and-explosion-investigation',
-    image: getImgPath('/images/publications/forensic-explosives.jpg'),
+    image: 'https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_1500,w_2000,f_auto,q_auto/18742590/27652_124939.jpeg',
     title: 'Forensic Science, Forensic Explosives and Explosion Investigation',
     date: 'December 16, 2024',
     category: 'Forensic Science, Explosion Investigation',
@@ -350,7 +350,7 @@ In the current researches, it is observed that forensic sciences play a vital ro
   },
   {
     slug: 'exhibitionism-explored',
-    image: getImgPath('/images/publications/exhibitionism.jpg'),
+    image: 'https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_1500,w_2000,f_auto,q_auto/18742590/660216_768735.jpeg',
     title: 'Exhibitionism Explored: Insights into the Deviant Act',
     date: 'December 16, 2024',
     category: 'Paraphilia Disorder, Forensic Psychology',
@@ -365,7 +365,7 @@ The prevalence of exhibitionism and its potential consequences for both individu
   },
   {
     slug: 'psychopathy-and-sociopathy',
-    image: getImgPath('/images/publications/psychopathy.jpg'),
+    image: 'https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_1500,w_2000,f_auto,q_auto/18742590/902641_609621.jpeg',
     title: 'Psychopathy and Sociopathy: A Modern Understanding of Antisocial Personality Disorder',
     date: 'December 16, 2024',
     category: 'Psychopathy, Antisocial Personality Disorder, Sociopathy',
@@ -380,7 +380,7 @@ The term "Sociopath" often uses arbitrarily to describe a person who is non-cons
   },
   {
     slug: 'alternatives-to-mitigate-corona',
-    image: getImgPath('/images/publications/covid-mitigation.jpg'),
+    image: 'https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_1500,w_2000,f_auto,q_auto/18742590/896615_584384.png',
     title: 'Alternatives to Mitigate Corona',
     date: 'December 16, 2024',
     category: 'Covid-19, Public Health',
@@ -395,7 +395,7 @@ Coronavirus is most pandemic virus and it is challenging too for the scholars an
   },
   {
     slug: 'nanorobotics-theranostic-approach',
-    image: getImgPath('/images/publications/nanorobotics.jpg'),
+    image: 'https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_1500,w_2000,f_auto,q_auto/18742590/561330_662028.jpeg',
     title: 'Nanorobotics: A Theranostic Approach',
     date: 'December 16, 2024',
     category: 'Nanorobotics, Nanotechnology',
@@ -410,7 +410,7 @@ Scientific advancements and modern vision holds a hand over every field of techn
   },
   {
     slug: 'review-on-drug-doping',
-    image: getImgPath('/images/publications/drug-doping.jpg'),
+    image: 'https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_1500,w_2000,f_auto,q_auto/18742590/239472_539082.jpeg',
     title: 'Review on Drug Doping',
     date: 'December 16, 2024',
     category: 'Sports Science, Drug Doping',
