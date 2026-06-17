@@ -38,15 +38,16 @@ const Mentors = () => {
               data-aos="fade-up"
             >
               {/* Image */}
-              <div className="relative h-72 overflow-hidden">
-                <Image
-                  src={mentor.image}
-                  alt={mentor.name}
-                  fill
-                  className="object-cover transition-transform duration-700 group-hover:scale-105"
-                />
+              <div className="relative h-80 overflow-hidden bg-gray-100">
+  <Image
+    src={mentor.image}
+    alt={mentor.name}
+    fill
+    className="object-contain transition-transform duration-700 group-hover:scale-105"
+  />
 
-                <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-black/10 to-transparent" />
+
+                <div className="absolute inset-0 " />
               </div>
 
               {/* Content */}
