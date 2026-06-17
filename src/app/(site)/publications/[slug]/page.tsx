@@ -8,13 +8,17 @@ export function generateStaticParams() {
   }))
 }
 
-export default function PublicationDetails({
+// 1. Made the component 'async' and updated the type signature to Expect a Promise
+export default async function PublicationDetails({
   params,
 }: {
-  params: { slug: string }
+  params: Promise<{ slug: string }>
 }) {
+  // 2. Await the params to extract the slug safely
+  const { slug } = await params
+
   const publication = publications.find(
-    (item) => item.slug === params.slug
+    (item) => item.slug === slug
   )
 
   if (!publication) {
@@ -38,8 +42,6 @@ export default function PublicationDetails({
               {publication.info}
             </span>
 
-         
-
             <span className="rounded-full bg-gray-100 px-4 py-2 text-gray-600">
               {publication.date}
             </span>
@@ -54,7 +56,6 @@ export default function PublicationDetails({
           </p>
 
           <div className="mt-10 rounded-3xl bg-section p-8 dark:bg-darklight">
-
             <p className="leading-8 text-grey dark:text-white/70">
               {publication.content}
             </p>
