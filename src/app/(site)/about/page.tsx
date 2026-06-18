@@ -43,7 +43,7 @@ export default function AboutPage() {
             {/* Image */}
             <div className="flex justify-center">
               <Image
-                src={getImgPath('/images/hero/lavina-hero.jpg')}
+                src={getImgPath('/images/hero/hero-lavina.jpg')}
                 alt="Lavina Pratap Bhambhani"
                 width={700}
                 height={850}

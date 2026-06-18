@@ -119,7 +119,7 @@ const Hero = () => {
   {/* Added h-[500px] (or md:h-[600px]) to restrict the height */}
   <div className="relative overflow-hidden rounded-3xl shadow-deatail_shadow h-[500px] md:h-[600px]">
     <Image
-      src={getImgPath('/images/hero/lavina-hero.jpg')}
+      src={getImgPath('/images/hero/hero-lavina.jpg')}
       alt="Lavina Pratap Bhambhani"
       width={700}
       height={850}
