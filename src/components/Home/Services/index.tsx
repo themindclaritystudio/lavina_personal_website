@@ -6,39 +6,39 @@ import { Icon } from '@iconify/react'
 const services = [
   {
     icon: 'mdi:brain',
-    title: 'Mind Coaching',
+    title: 'Psychology Coaching',
     description:
-      'Transform limiting beliefs, strengthen mental resilience, and develop a mindset that supports long-term success and fulfillment.',
+      ' Helping individuals strengthen emotional resilience, develop healthy thought patterns, and navigate life’s challenges with confidence.',
   },
   {
     icon: 'mdi:heart-outline',
     title: 'Emotional Clarity',
     description:
-      'Gain deeper self-awareness, improve emotional intelligence, and navigate life with greater confidence and balance.',
+      'Develop greater self-awareness, strengthen emotional intelligence, and navigate life with clarity, balance, and confidence.',
   },
   {
     icon: 'mdi:account-group-outline',
     title: 'Personal Development',
     description:
-      'Discover your strengths, overcome internal barriers, and create meaningful personal and professional growth.',
+      'Discover your strengths, overcome personal barriers, and cultivate the skills needed for meaningful personal and professional growth.',
   },
   {
     icon: 'mdi:school-outline',
     title: 'Education & Mentorship',
     description:
-      'Guidance, mentorship, and learning experiences designed to inspire lifelong growth and academic excellence.',
+      'Guidance, mentorship, and learning experiences designed to foster lifelong growth, academic excellence, and professional development.',
   },
   {
     icon: 'mdi:lightbulb-outline',
-    title: 'Consulting',
+    title: 'Professional Consultation ',
     description:
-      'Practical strategies and personalized support for individuals seeking clarity, direction, and transformation.',
+      'Evidence-based guidance and practical strategies tailored to individual, academic, and professional development needs.',
   },
   {
     icon: 'mdi:book-open-page-variant-outline',
     title: 'Research & Publications',
     description:
-      'Sharing valuable insights through research, writing, books, articles, and thought leadership initiatives.',
+      'Contributing to the field through academic research, publications, books, articles, and interdisciplinary scholarship.',
   },
 ]
 
@@ -67,8 +67,7 @@ const Services = () => {
           data-aos-delay="200"
           data-aos-duration="1000"
         >
-          Helping Individuals Build Clarity, Confidence &
-          Emotional Strength
+Helping Individuals Build Emotional Resilience, Clarity & Personal Growth 
         </h2>
 
         <p
@@ -77,10 +76,7 @@ const Services = () => {
           data-aos-delay="300"
           data-aos-duration="1000"
         >
-          Through psychology, coaching, education, and mentorship,
-          Lavina Pratap Bhambhani empowers individuals to overcome challenges,
-          strengthen their mindset, and create meaningful personal
-          transformation.
+         Through psychology, education, research, and mentorship, Dr. Lavina Pratap Bhambhani empowers individuals to enhance emotional well-being, develop resilience, deepen self-awareness, and achieve meaningful personal growth through evidence-based guidance. 
         </p>
 
         {/* Services Grid */}

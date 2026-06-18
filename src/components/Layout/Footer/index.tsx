@@ -75,7 +75,7 @@ const Footer = () => {
             <ul className="space-y-3">
               <li>
                 <Link
-                  href="#about"
+                  href="/about"
                   className="text-grey transition-colors duration-300 hover:text-primary dark:text-white/70"
                 >
                   About
@@ -84,25 +84,41 @@ const Footer = () => {
 
               <li>
                 <Link
-                  href="#services"
+                  href="/services"
                   className="text-grey transition-colors duration-300 hover:text-primary dark:text-white/70"
                 >
                   Services
                 </Link>
               </li>
-
-              <li>
+               <li>
                 <Link
-                  href="#experience"
+                  href="/portfolio"
                   className="text-grey transition-colors duration-300 hover:text-primary dark:text-white/70"
                 >
-                  Experience
+                  Gallery
                 </Link>
               </li>
 
               <li>
                 <Link
-                  href="#publications"
+                  href="/experience"
+                  className="text-grey transition-colors duration-300 hover:text-primary dark:text-white/70"
+                >
+                  Experience
+                </Link>
+              </li>
+               <li>
+                <Link
+                  href="/mentors"
+                  className="text-grey transition-colors duration-300 hover:text-primary dark:text-white/70"
+                >
+                  Mentors
+                </Link>
+              </li>
+
+              <li>
+                <Link
+                  href="/publications"
                   className="text-grey transition-colors duration-300 hover:text-primary dark:text-white/70"
                 >
                   Publications
@@ -111,7 +127,7 @@ const Footer = () => {
 
               <li>
                 <Link
-                  href="#contact"
+                  href="/contact"
                   className="text-grey transition-colors duration-300 hover:text-primary dark:text-white/70"
                 >
                   Contact

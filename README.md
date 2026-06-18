@@ -1,20 +1,15 @@
-# Venus Free Next.js Website Template
+# Lavina Personal Website
 
-#### Preview
+A personal portfolio website built with Next.js 15, Tailwind CSS v4, and TypeScript, showcasing publications, expertise, and research contributions.
 
-- [Demo](https://themewagon.github.io/venus-nextjs/)
-
-#### Download
-
-- [Download from ThemeWagon](https://themewagon.com/themes/venus-nextjs/)
 
 ## Getting Started
 
 1. Clone Repository
 
-```
-git clone https://github.com/themewagon/venus-nextjs.git
-```
+```bash
+git clone [https://github.com/themindclaritystudio/lavina_personal_website.git](https://github.com/themindclaritystudio/lavina_personal_website.git)
+
 
 2. Install Dependencies
 
@@ -34,14 +29,3 @@ pnpm dev
 bun dev
 ```
 
-## Author
-
-```
-Design and code is completely written by Getnextjstemplates and development team.
-```
-
-## License
-
-- Design and Code is Copyright &copy; [codescandy](https://getnextjstemplates.com/)
-- Licensed cover under [MIT]
-- Distributed by [ThemeWagon](https://themewagon.com)
