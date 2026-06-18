@@ -1,8 +1,8 @@
-# 🌐 Lavina Personal Website
+#  Lavina Personal Website
 
 A modern personal portfolio website built with **Next.js 15**, **TypeScript**, and **Tailwind CSS v4**, showcasing professional achievements, publications, research contributions, mentorship, services, and academic expertise.
 
-## ✨ Features
+##  Features
 
 - Responsive modern design
 - Publications & research showcase
@@ -16,7 +16,7 @@ A modern personal portfolio website built with **Next.js 15**, **TypeScript**, a
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 - Next.js 15
 - React
@@ -26,7 +26,7 @@ A modern personal portfolio website built with **Next.js 15**, **TypeScript**, a
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### 1. Clone the Repository
 
@@ -55,7 +55,7 @@ http://localhost:3000
 
 ---
 
-## 📦 Production Build
+##  Production Build
 
 Generate a production build:
 
@@ -86,8 +86,4 @@ npm run start
 ---
 
 
-
-## 📄 License
-
-This project is created and maintained by **Lavina Pratap Bhambhani**.
 
