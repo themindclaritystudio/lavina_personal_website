@@ -24,9 +24,8 @@ const Footer = () => {
   />
 
   <p className=" max-w-sm text-sm leading-7 text-grey dark:text-white/70 sm:text-base">
-    Psychologist, Mind Coach, Educator, Researcher, and Author dedicated to
-    helping individuals cultivate resilience, emotional clarity, and
-    meaningful personal transformation.
+     Psychologist, Educator, Researcher, and Author dedicated to advancing mental well-being, emotional resilience, self-awareness, and lifelong learning.  
+
   </p>
 
   {/* Social Links */}
@@ -143,15 +142,15 @@ const Footer = () => {
             </h3>
 
             <p className="leading-relaxed text-grey dark:text-white/70">
-              Interested in coaching, mentorship, speaking engagements,
-              research collaborations, or personal development programs?
+                Interested in psychology, mentorship, speaking engagements, research collaborations, or educational initiatives? 
+
             </p>
 
             <Link
-              href="#contact"
+              href="/contact#contact-form"
               className="mt-6 inline-flex items-center justify-center rounded-xl bg-primary px-6 py-3 font-medium text-white transition-all duration-300 hover:scale-105 hover:shadow-lg"
             >
-              Get In Touch
+              Let's connect
             </Link>
 
             <blockquote className="mt-8 border-l-2 border-primary pl-5 italic text-grey dark:text-white/60">

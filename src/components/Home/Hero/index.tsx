@@ -39,7 +39,7 @@ const Hero = () => {
 
         {/* Description */}
         <p className="mt-6 max-w-2xl mx-auto lg:mx-0 text-base sm:text-lg md:text-xl leading-relaxed text-grey dark:text-white/70">
-          Dr. Lavina Pratap Bhambhani is dedicated to advancing mental well-being through psychology, education, research, and personal development. Through evidence-based guidance, teaching, and mentorship, she empowers individuals to build emotional resilience, deepen self-awareness, and create meaningful, lasting positive change.
+           Lavina Pratap Bhambhani is dedicated to advancing mental well-being through psychology, education, research, and personal development. Through evidence-based guidance, teaching, and mentorship, she empowers individuals to build emotional resilience, deepen self-awareness, and create meaningful, lasting positive change.
         </p>
 
         {/* Buttons */}
@@ -113,21 +113,22 @@ const Hero = () => {
   data-aos-delay="300"
   data-aos-duration="1000"
 >
-        <div className="relative max-w-md sm:max-w-lg lg:max-w-none mx-auto">
-          <div className="absolute -inset-4 rounded-3xl bg-primary/10 blur-2xl" />
+       <div className="relative max-w-md sm:max-w-lg lg:max-w-none mx-auto pt-2">
+  <div className="absolute -inset-4 rounded-3xl bg-primary/10 blur-2xl" />
 
-          <div className="relative overflow-hidden rounded-3xl shadow-deatail_shadow">
-            <Image
-              src={getImgPath('/images/hero/lavina-hero.png')}
-              alt="Lavina Pratap Bhambhani"
-              width={700}
-              height={850}
-              priority
-              quality={100}
-              className="w-full h-auto object-cover transition-transform duration-700 hover:scale-105"
-            />
-          </div>
-        </div>
+  {/* Added h-[500px] (or md:h-[600px]) to restrict the height */}
+  <div className="relative overflow-hidden rounded-3xl shadow-deatail_shadow h-[500px] md:h-[600px]">
+    <Image
+      src={getImgPath('/images/hero/lavina-hero.jpg')}
+      alt="Lavina Pratap Bhambhani"
+      width={700}
+      height={850}
+      priority
+      quality={100}
+      className="w-full h-full object-cover transition-transform duration-700 hover:scale-105"
+    />
+  </div>
+</div>
       </div>
 
     </div>

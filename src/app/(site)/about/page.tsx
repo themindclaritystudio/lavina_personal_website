@@ -20,7 +20,7 @@ export default function AboutPage() {
             <div>
               <span className="inline-flex items-center gap-2 text-sm font-medium text-primary">
                 <span className="h-2.5 w-2.5 rounded-full bg-green-500" />
-                About Dr. Lavina Pratap Bhambhani
+                About Lavina Pratap Bhambhani
               </span>
 
               <h1 className="mt-6 text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold leading-tight text-midnight_text dark:text-white">
@@ -28,7 +28,7 @@ export default function AboutPage() {
               </h1>
 
               <p className="mt-6 text-base md:text-lg leading-8 text-grey dark:text-white/70">
-                Dr. Lavina Pratap Bhambhani is a psychologist, educator, researcher, and author dedicated to advancing mental well-being, lifelong learning, and personal growth. Through a blend of psychological insight, academic expertise, and evidence-based practice, she empowers individuals to develop emotional resilience, self-awareness, critical thinking, and meaningful life skills.
+                 Lavina Pratap Bhambhani is a psychologist, educator, researcher, and author dedicated to advancing mental well-being, lifelong learning, and personal growth. Through a blend of psychological insight, academic expertise, and evidence-based practice, she empowers individuals to develop emotional resilience, self-awareness, critical thinking, and meaningful life skills.
               </p>
 
               <p className="mt-5 text-base md:text-lg leading-8 text-grey dark:text-white/70">
@@ -43,7 +43,7 @@ export default function AboutPage() {
             {/* Image */}
             <div className="flex justify-center">
               <Image
-                src={getImgPath('/images/hero/lavina-hero.png')}
+                src={getImgPath('/images/hero/lavina-hero.jpg')}
                 alt="Lavina Pratap Bhambhani"
                 width={700}
                 height={850}

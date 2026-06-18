@@ -76,7 +76,7 @@ Helping Individuals Build Emotional Resilience, Clarity & Personal Growth
           data-aos-delay="300"
           data-aos-duration="1000"
         >
-         Through psychology, education, research, and mentorship, Dr. Lavina Pratap Bhambhani empowers individuals to enhance emotional well-being, develop resilience, deepen self-awareness, and achieve meaningful personal growth through evidence-based guidance. 
+         Through psychology, education, research, and mentorship,  Lavina Pratap Bhambhani empowers individuals to enhance emotional well-being, develop resilience, deepen self-awareness, and achieve meaningful personal growth through evidence-based guidance. 
         </p>
 
         {/* Services Grid */}
