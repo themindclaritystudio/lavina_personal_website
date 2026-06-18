@@ -39,14 +39,12 @@ const Mentors = () => {
             >
               {/* Image */}
               <div className="relative h-80 overflow-hidden bg-gray-100">
-  <Image
-    src={mentor.image}
-    alt={mentor.name}
-    fill
-    className="object-contain transition-transform duration-700 group-hover:scale-105"
-  />
-
-
+                <Image
+                  src={mentor.image}
+                  alt={mentor.name}
+                  fill
+                  className="object-contain transition-transform duration-700 group-hover:scale-105"
+                />
                 <div className="absolute inset-0 " />
               </div>
 
@@ -60,7 +58,8 @@ const Mentors = () => {
                   {mentor.designation}
                 </p>
 
-                <p className="mt-5 line-clamp-6 leading-relaxed text-gray-600 dark:text-white/60">
+                {/* Removed line-clamp-6 so full text shows */}
+                <p className="mt-5 leading-relaxed text-gray-600 dark:text-white/60">
                   {mentor.description}
                 </p>
               </div>
