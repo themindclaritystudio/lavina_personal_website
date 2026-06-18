@@ -18,7 +18,7 @@ const Mentors = () => {
           </span>
 
           <h2 className="mt-5 text-3xl font-bold text-[#1F2937] dark:text-white md:text-4xl lg:text-5xl">
-            The Champions Who Molded Me Into My Greatest Potential
+           The Mentors Behind My Growth
           </h2>
 
           <p className="mx-auto mt-6 max-w-3xl text-lg leading-relaxed text-gray-600 dark:text-white/60">

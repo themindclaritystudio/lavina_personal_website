@@ -15,9 +15,9 @@ export const mentorsData = [
     id: 1,
     image: '/images/mentors/1.png',
     name: 'Dr. Arun Kumar',
-    designation: 'Assistant Director - VIT Bhopal',
+    designation: 'Assistant Director | VIT Bhopal University',
     description:
-      'Dr. Arun Kumar is a highly accomplished academic and researcher with a Doctorate from Sambalpur University and over 18 years of experience in biotechnology, soil science, and environmental microbiology. He has published 62 papers, contributed to 8 Genbank submissions, authored 7 book chapters, and holds 2 patents. Recognized with multiple awards, including Best Teacher by the HRD Minister of India, Dr. Kumar has held leadership roles in academia and chaired numerous national and international conferences.',
+      'Academic leader and researcher with 18+ years of experience in biotechnology, soil science, and environmental microbiology. Author of 62+ research papers, multiple patents, and book chapters. Recipient of the Best Teacher Award from the HRD Minister of India.',
   },
   {
     id: 2,
@@ -25,145 +25,137 @@ export const mentorsData = [
     name: 'Dr. Arun Kumar Pullela',
     designation: 'Clinical Psychologist',
     description:
-      'A licensed clinical psychologist with experience counselling diverse age groups, including families, children, adolescents, and adults. He has expertise in CBT, DBT, and ACT. With experience in academia, private, government, and child development settings, he is skilled in therapy, assessment, diagnosis, and employee relations.',
+      'Licensed clinical psychologist skilled in therapy, assessment, diagnosis, and employee relations. Possesses extensive expertise in CBT, DBT, and ACT across diverse age groups within academic, private, government, and child development settings.',
   },
   {
     id: 3,
     image: '/images/mentors/3.png',
     name: 'Dr. Ranjeeta Kumari',
-    designation: "Assistant Director & Scientist 'C' - CFSL Delhi",
+    designation: 'Assistant Director & Scientist C | CFSL Delhi',
     description:
-      "Dr. Ranjeeta Kumari holds an M.A., PG Diploma in Clinical Psychology, and a PhD in Psychology from Patna University. With more than 13 years of expertise in lie detection techniques, she has contributed significantly to forensic psychology and criminal investigations.",
+      'Holds a PhD in Psychology from Patna University alongside a PG Diploma in Clinical Psychology. Brings more than 13 years of specialized expertise in lie detection techniques, contributing significantly to forensic psychology and criminal investigations.',
   },
   {
     id: 4,
     image: '/images/mentors/4.png',
     name: 'Dr. Devina Upadhyay',
-    designation: 'Associate Professor - SKIPS University',
+    designation: 'Associate Professor | SKIPS University',
     description:
-      'Dr. Devina Upadhyay has 14 years of academic and research experience with expertise in Quantitative Techniques, Research Methodology, Operations Research, and Marketing Management. She has led workshops, research projects, and training programs including initiatives for Gujarat Police.',
+      'Features 14 years of academic and research experience specializing in Quantitative Techniques, Research Methodology, Operations Research, and Marketing Management. Actively leads key workshops, research projects, and specialized training initiatives for the Gujarat Police.',
   },
   {
     id: 5,
     image: '/images/mentors/5.png',
     name: 'Prof. (Dr.) Akhil Saiyed',
-    designation:
-      'Vice Chancellor / Provost - GM Vastanvi University',
+    designation: 'Vice Chancellor & Provost | GM Vastanvi University',
     description:
-      'An accomplished Edupreneur, Trainer, Consultant, and Law Professor with over 15 years of experience in academia and legal practice. He has served in multiple leadership positions including Pro Vice Chancellor and Director of Law Institutes.',
+      'Accomplished edupreneur, trainer, consultant, and law professor with over 15 years of deep experience across academia and legal practice. Has successfully served in multiple executive leadership roles, including Pro Vice Chancellor and Director of Law Institutes.',
   },
   {
     id: 6,
     image: '/images/mentors/6.png',
     name: 'Dr. Shivani Pandya',
-    designation:
-      'Assistant Professor - Narnarayan Shastri Institute of Technology',
+    designation: 'Assistant Professor | Narnarayan Shastri Institute of Technology',
     description:
-      'A chemistry academic specializing in nanotechnology and forensic applications. Her work focuses on nanomaterials, drug delivery systems, scientific research, and societal impact through education.',
+      'Chemistry academic specializing in nanotechnology and its various forensic applications. Her core research focuses on nanomaterials, targeted drug delivery systems, advanced scientific research, and driving positive societal impact through education.',
   },
   {
     id: 7,
     image: '/images/mentors/7.png',
     name: 'Dr. Krupa Mehta',
-    designation: 'Director - US Work Study Pvt. Ltd.',
+    designation: 'Director | US Work Study Pvt. Ltd.',
     description:
-      'An expert in U.S. higher education admissions helping students secure scholarships, tuition waivers, and global academic opportunities, especially in STEM, engineering, and business disciplines.',
+      'Expert in U.S. higher education admissions, dedicated to helping students secure vital scholarships, tuition waivers, and competitive global academic opportunities, with a particular emphasis on STEM, engineering, and business disciplines.',
   },
   {
     id: 8,
     image: '/images/mentors/8.png',
     name: 'Dr. Ravinder Yadav',
-    designation: 'Scientist - DIPR, DRDO',
+    designation: 'Scientist | DIPR, DRDO',
     description:
-      'A dedicated DRDO scientist contributing to defence research and development. Under his guidance, research and development techniques were introduced for army school students.',
+      'Dedicated DRDO scientist contributing significantly to national defence research and development. Guided students through research and innovation programs, introducing critical scientific thinking and R&D methodologies to army school students.',
   },
   {
     id: 9,
     image: '/images/mentors/9.png',
-    name: 'Miss Aarushi Narang',
-    designation: 'PhD Scholar - Bharathiar University',
+    name: 'Aarushi Narang',
+    designation: 'PhD Scholar | Bharathiar University',
     description:
-      'A researcher and counsellor focused on stress management, emotional well-being, and employee wellness. Her mentorship has provided valuable direction throughout the PhD journey.',
+      'Accomplished researcher and counsellor focused on stress management, emotional well-being, and corporate employee wellness. Her dedicated mentorship has provided invaluable strategic direction and support throughout the intense PhD journey.',
   },
   {
     id: 10,
     image: '/images/mentors/10.png',
     name: 'Mr. Hitesh Porwal',
-    designation: 'Founder - Bizstart',
+    designation: 'Founder | Bizstart',
     description:
-      'Founder of Bizstart, a pre-incubation platform empowering educators, students, and aspiring entrepreneurs in Tier 2, Tier 3, Tier 4 cities and rural India through entrepreneurship education.',
+      'Founder of Bizstart, a pre-incubation platform empowering educators, students, and aspiring entrepreneurs across Tier 2, Tier 3, and rural India through comprehensive, modern entrepreneurship education.',
   },
   {
     id: 11,
     image: '/images/mentors/11.png',
     name: 'Dr. Dhara Thakore',
-    designation:
-      'Head - Aarambh Incubation Centre & Office of Career Services, Anant University',
+    designation: 'Head - Aarambh Incubation Centre & Office of Career Services | Anant University',
     description:
-      'An innovation and incubation leader with extensive experience in startup ecosystems, technology transfer, entrepreneurship policy, and national innovation initiatives.',
+      'Dynamic innovation and incubation leader possessing extensive experience across regional startup ecosystems, technology transfer management, entrepreneurship policy design, and major national innovation initiatives.',
   },
   {
     id: 12,
     image: '/images/mentors/12.png',
     name: 'Prof. (Dr.) Ajit Gangawane',
-    designation: 'Registrar - Swaminarayan University',
+    designation: 'Registrar | Swaminarayan University',
     description:
-      'A distinguished academic and researcher with 21 years of experience in biochemistry, molecular biology, research, academic administration, and higher education policy.',
+      'Distinguished academic leader and researcher with 21 years of experience across biochemistry, molecular biology, scientific research, institutional academic administration, and national higher education policy.',
   },
   {
     id: 13,
     image: '/images/mentors/13.png',
     name: 'Dr. Dharmishtha Barot',
-    designation:
-      'Assistant Professor - M.B. Patel Science College',
+    designation: 'Assistant Professor | M.B. Patel Science College',
     description:
-      'A physicist and researcher specializing in dielectric properties, electrical conductivity, material science, and experimental physics with a strong focus on student mentorship.',
+      'Physicst and active researcher specializing in dielectric properties, electrical conductivity, material science, and experimental physics, paired with a strong professional focus on student mentorship.',
   },
   {
     id: 14,
     image: '/images/mentors/14.png',
     name: 'Dr. Deepak Makwana',
-    designation:
-      'Founder Regional Director (India) - The Alpha Group International',
+    designation: 'Founder Regional Director (India) | The Alpha Group International',
     description:
-      'A renowned business coach, trainer, graphologist, hypnotist, and leadership mentor who has coached thousands of entrepreneurs and business owners across India.',
+      'Renowned business coach, corporate trainer, graphologist, hypnotist, and executive leadership mentor who has successfully coached thousands of growing entrepreneurs and established business owners across India.',
   },
   {
     id: 15,
     image: '/images/mentors/15.png',
     name: 'Mr. Aniket Pandya',
-    designation:
-      'Entrepreneur, TEDx Speaker, Educator & Founder - Aniradichita Theatre and Films',
+    designation: 'Entrepreneur, TEDx Speaker & Founder | Aniradichita Theatre and Films',
     description:
-      'A creative entrepreneur applying performing arts to business, education, marketing, HR, CSR, and entertainment through impactful campaigns and storytelling.',
+      'Creative entrepreneur applying performing arts methodologies directly to business, education, modern marketing, HR operations, corporate social responsibility, and global entertainment through impactful campaigns.',
   },
   {
     id: 16,
     image: '/images/mentors/16.png',
     name: 'Dr. Arushi Chawla',
-    designation:
-      'Head of Department - Lloyd Institute of Forensic Science',
+    designation: 'Head of Department | Lloyd Institute of Forensic Science',
     description:
-      'A forensic odontologist and academic actively contributing to forensic science research, education, collaborations, and knowledge-sharing initiatives.',
+      'Forensic odontologist and academic contributing to forensic science research, academic excellence, and interdisciplinary collaborations, alongside active knowledge-sharing initiatives.',
   },
   {
     id: 17,
     image: '/images/mentors/17.png',
     name: 'Mr. Dwij Nandwani',
-    designation:
-      'Lead Learning & Development - IMS Group',
+    designation: 'Lead Learning & Development | IMS Group',
     description:
-      'A master trainer, psychologist, leadership coach, and founder of #NoteKiyaJaye, dedicated to personal development, organizational growth, and career guidance.',
+      'Master corporate trainer, psychologist, leadership coach, and founder of #NoteKiyaJaye, dedicated to personal development tracking, sustainable organizational growth, and strategic career guidance.',
   },
   {
     id: 18,
     image: '/images/mentors/18.png',
-    name: 'Colonel Harindra Vyas (Retired)',
+    name: 'Col. Harindra Vyas (Retd.)',
     designation: 'Indian Army Veteran',
     description:
-      'A highly respected mentor with over 35 years of distinguished service in the Indian Army whose expertise in leadership, logistics, HR, security, discipline, and resilience continues to inspire and guide future generations.',
+      'Highly respected mentor with over 35 years of distinguished service in the Indian Army. His deep expertise in leadership, logistics, HR, security operations, and discipline continues to inspire future generations.',
   },
-]
+];
 export const count = [
   {
     icon: 'mdi:book-open-page-variant-outline',
