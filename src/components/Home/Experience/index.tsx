@@ -3,134 +3,160 @@
 import Image from 'next/image'
 import { Icon } from '@iconify/react'
 
+
 const experienceData = [
   {
     year: '2024',
     title: 'Startup Demo Day, Mehsana',
     image: '/images/experience/1.png',
     description:
-      'Participated in Startup Demo Day hosted by i-Hub Gujarat and the Collector Office, Mehsana, providing a platform for startups to showcase innovations, connect with investors, and strengthen the regional entrepreneurial ecosystem.',
+      'Participated in Startup Demo Day hosted by i-Hub Gujarat and the Collector Office, Mehsana, connecting with innovators, mentors, and investors while supporting regional entrepreneurship.',
   },
   {
     year: '2024',
     title: 'Core Team Member – AMRIT Mehsana Startup & Innovation Mission',
     image: '/images/experience/2.png',
     description:
-      'Served as a founding team member of the AMRIT Mehsana Startup and Innovation Mission, contributing to the development of a vibrant startup ecosystem and supporting innovation-driven entrepreneurship across the district.',
+      'Served as a founding team member of the AMRIT Mehsana Startup and Innovation Mission, helping strengthen innovation and entrepreneurship across the district.',
   },
   {
     year: '2024',
     title: 'Startup Meet at Anant University',
     image: '/images/experience/3.png',
     description:
-      'Participated in an entrepreneurial startup meet organized by Anant University, gaining valuable insights into business growth, consistency, innovation, and long-term startup success.',
+      'Attended Anant University’s startup meet, gaining valuable insights into business growth, consistency, innovation, and entrepreneurial success.',
   },
   {
     year: '2024',
     title: 'MOU Signing with Anant University & ArthX Drones',
     image: '/images/experience/4.png',
     description:
-      'Represented ArthX Drones Pvt. Ltd. during the signing of an MOU with Anant University, strengthening collaboration in innovation, incubation, and emerging drone technologies.',
+      'Represented ArthX Drones during the signing of an MOU with Anant University, fostering collaboration in innovation, incubation, and drone technology.',
   },
   {
     year: '2024',
     title: 'Defence Startup Ecosystem Meeting',
     image: '/images/experience/5.png',
     description:
-      'Worked alongside i-Hub Gujarat pioneers to host strategic meetings focused on defence startups, innovation, and technology-driven entrepreneurship.',
+      'Contributed to strategic meetings focused on defence startups, innovation, and emerging technologies alongside the i-Hub Gujarat ecosystem.',
   },
   {
     year: '2024',
     title: 'Entrepreneurship Awareness – Government Polytechnic for Girls',
     image: '/images/experience/6.png',
     description:
-      'Delivered sessions introducing students to startup opportunities, innovation ecosystems, mentorship support, and resources available through i-Hub Gujarat.',
+      'Guided students on entrepreneurship opportunities, startup resources, mentorship programs, and innovation support available through i-Hub Gujarat.',
   },
+
   {
     year: '2023',
     title: 'Career Guidance Webinar – IIT Bombay E-Cell',
     image: '/images/experience/7.png',
     description:
-      'Invited by IIT Bombay E-Cell to conduct a webinar on career planning and decision-making, drawing insights from the internationally recognized book "Career Mentor".',
+      'Delivered a career guidance webinar for IIT Bombay E-Cell, helping students make informed career decisions through insights from Career Mentor.',
   },
   {
     year: '2023',
     title: 'Startup Culture in India – School Outreach Program',
     image: '/images/experience/8.png',
     description:
-      'Hosted interactive sessions for school students, introducing entrepreneurial thinking, startup culture, innovation, and future opportunities in India’s startup ecosystem.',
+      'Introduced school students to India’s startup culture, encouraging entrepreneurial thinking, innovation, and future leadership.',
+  },
+  {
+    year: '2023',
+    title: 'Startup Culture in India – Interactive School Session',
+    image: '/images/experience/9.png',
+    description:
+      'Conducted an interactive session introducing students to startup opportunities, entrepreneurial challenges, and innovation-driven careers.',
   },
   {
     year: '2023',
     title: 'International Student Delegation Host',
-    image: '/images/experience/9.png',
+    image: '/images/experience/10.png',
     description:
-      'Represented i-Hub Gujarat while hosting international students and introducing them to Indian startup policies, grants, incubation opportunities, and entrepreneurship support systems.',
+      'Hosted international students on behalf of i-Hub Gujarat, highlighting Indian startup policies, grants, and incubation opportunities.',
   },
   {
     year: '2023',
     title: 'AMRIT Mehsana Startup Mahotsav',
-    image: '/images/experience/10.png',
+    image: '/images/experience/11.png',
     description:
-      'Actively contributed to the AMRIT Mehsana Startup Mahotsav, engaging with entrepreneurs, innovators, and ecosystem stakeholders to promote startup growth.',
+      'Actively participated in the AMRIT Mehsana Startup Mahotsav, engaging with entrepreneurs and promoting innovation within the startup ecosystem.',
   },
   {
     year: '2023',
     title: 'Oklahoma University Delegation Visit',
-    image: '/images/experience/11.png',
+    image: '/images/experience/12.png',
     description:
-      'Participated in hosting representatives from Oklahoma University, USA, facilitating knowledge exchange and strengthening international academic and entrepreneurial connections.',
+      'Participated in hosting representatives from Oklahoma University, USA, fostering international collaboration and knowledge exchange.',
+  },
+  {
+    year: '2023',
+    title: 'Team Mehsana Explores Startup Ecosystem at i-Hub Ahmedabad',
+    image: '/images/experience/13.png',
+    description:
+      'Explored startup ecosystems and innovation practices at i-Hub Ahmedabad, gaining exposure to incubation and entrepreneurship initiatives.',
   },
   {
     year: '2023',
     title: 'Startup Ecosystem Session – Government Polytechnic',
-    image: '/images/experience/12.png',
+    image: '/images/experience/14.png',
     description:
-      'Delivered an in-depth session on entrepreneurship, startup opportunities, government schemes, and innovation pathways for aspiring young entrepreneurs.',
+      'Delivered a session on entrepreneurship, startup opportunities, innovation pathways, and government support schemes for students.',
   },
   {
     year: '2023',
     title: 'Recognized as Startup Mitra',
-    image: '/images/experience/13.png',
+    image: '/images/experience/15.png',
     description:
-      'Felicitated as “Startup Mitra” by M. Nagarajan IAS, District Collector of Mehsana, for contributions toward fostering entrepreneurship and innovation in the region.',
+      'Honored as “Startup Mitra” by M. Nagarajan IAS for contributions toward entrepreneurship, innovation, and startup development in Mehsana.',
   },
   {
     year: '2023',
     title: 'Entrepreneurship Session – Swaminarayan University',
-    image: '/images/experience/14.png',
+    image: '/images/experience/16.png',
     description:
-      'Conducted motivational sessions encouraging students to explore entrepreneurship, innovation, and leadership beyond conventional career paths.',
+      'Conducted a motivational session encouraging students to explore entrepreneurship, innovation, and leadership beyond traditional careers.',
   },
+  {
+    year: '2023',
+    title: 'Proud Students of Swaminarayan University',
+    image: '/images/experience/17.png',
+    description:
+      'Memorable interaction with enthusiastic students following an inspiring entrepreneurship session focused on innovation and leadership.',
+  },
+
   {
     year: '2022-Present',
     title: 'PhD Scholar & Researcher',
-    image: '/images/experience/15.png',
+    image: '/images/experience/18.png',
     description:
-      'Pursuing doctoral research while collaborating with scholars and faculty, contributing to academic inquiry, research excellence, and interdisciplinary learning.',
+      'Pursuing doctoral research while collaborating with scholars and faculty, contributing to academic excellence and interdisciplinary learning.',
   },
   {
     year: '2022-2024',
     title: 'Host of 75+ Webinar Series',
-    image: '/images/experience/16.png',
+    image: '/images/experience/19.png',
     description:
-      'Successfully hosted over 75 webinars under the AMRIT Mehsana Startup and Innovation Mission, empowering entrepreneurs through expert-led learning and networking opportunities.',
+      'Successfully hosted over 75 webinars under the AMRIT Mehsana Startup and Innovation Mission, empowering entrepreneurs through expert-led learning.',
   },
   {
     year: 'Early Career',
     title: 'Internship – Central Institute of Psychiatry',
-    image: '/images/experience/17.png',
+    image: '/images/experience/20.png',
     description:
-      'Gained hands-on clinical exposure in psychological assessments, mental health interventions, research activities, and psychiatric care practices.',
+      'Gained practical experience in psychological assessments, mental health interventions, clinical observation, and psychiatric care.',
   },
   {
     year: 'Academic Foundation',
     title: 'Assistant Professor – Parul University',
-    image: '/images/experience/18.png',
+    image: '/images/experience/21.png',
     description:
-      'Started an academic career as Assistant Professor at Parul University, mentoring students, teaching psychology, and developing a passion for education and research.',
+      'Began an academic career at Parul University, mentoring students, teaching psychology, and developing a strong foundation in education and research.',
   },
 ]
+
+
 
 const Experience = () => {
   return (
