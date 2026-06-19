@@ -289,6 +289,46 @@ export const portfolioinfo = [
     info: 'Designation',
     Class: 'md:mt-0'
   },
+  {
+    image: getImgPath('/images/portfolio/11.jpeg'),
+    alt: 'Portfolio',
+    title: 'Apex Strategies',
+    slug: 'apex-strategies',
+    info: 'Designation',
+    Class: 'md:mt-0'
+  },
+  {
+    image: getImgPath('/images/portfolio/12.jpeg'),
+    alt: 'Portfolio',
+    title: 'Apex Strategies',
+    slug: 'apex-strategies',
+    info: 'Designation',
+    Class: 'md:mt-0'
+  },
+  {
+    image: getImgPath('/images/portfolio/13.jpeg'),
+    alt: 'Portfolio',
+    title: 'Apex Strategies',
+    slug: 'apex-strategies',
+    info: 'Designation',
+    Class: 'md:mt-0'
+  },
+  {
+    image: getImgPath('/images/portfolio/14.jpeg'),
+    alt: 'Portfolio',
+    title: 'Apex Strategies',
+    slug: 'apex-strategies',
+    info: 'Designation',
+    Class: 'md:mt-0'
+  },
+  {
+    image: getImgPath('/images/portfolio/15.jpeg'),
+    alt: 'Portfolio',
+    title: 'Apex Strategies',
+    slug: 'apex-strategies',
+    info: 'Designation',
+    Class: 'md:mt-0'
+  },
   
 ]
 
