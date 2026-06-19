@@ -103,7 +103,7 @@ const ContactForm = () => {
           <div>
             <div className="overflow-hidden rounded-3xl shadow-xl">
               <Image
-                src={getImgPath('/images/hero/hero-lavina.jpg')}
+                src={getImgPath('/images/hero/hero-lavina.webp')}
                 alt="Lavina Pratap Bhambhani"
                 width={700}
                 height={850}
