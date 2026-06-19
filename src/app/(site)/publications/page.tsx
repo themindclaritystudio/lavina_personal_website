@@ -7,7 +7,7 @@ export default function WorksPage() {
   return (
     <main className="bg-white dark:bg-darkmode">
       {/* Hero */}
-      <section className="pt-40 pb-16">
+      <section className="bg-section py-28 dark:bg-darklight lg:py-28">
         <div className="container mx-auto max-w-6xl px-5 text-center">
           <span className="inline-flex items-center gap-2 text-sm font-medium text-primary">
             <span className="h-2.5 w-2.5 rounded-full bg-green-500" />
@@ -27,7 +27,7 @@ export default function WorksPage() {
       </section>
 
       {/* Publications Grid */}
-      <section className="pb-20 lg:pb-28">
+      <section className="pb-20 py-2 lg:pb-28">
         <div className="container mx-auto max-w-6xl px-5">
           <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
             {publications.map((item, index) => (

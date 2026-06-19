@@ -74,7 +74,7 @@ export default function AboutPage() {
         </div>
       </section>
 
-      <section className="bg-section py-2 md:py-2 dark:bg-darklight">
+      <section className="bg-section py-10 md:py-20 dark:bg-darklight">
         <div className="container mx-auto max-w-6xl px-5">
           <div className="mx-auto max-w-4xl text-center">
 
