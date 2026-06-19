@@ -290,7 +290,7 @@ export const portfolioinfo = [
     Class: 'md:mt-0'
   },
   {
-    image: getImgPath('/images/portfolio/11.jpeg'),
+    image: getImgPath('/images/portfolio/11.jpg'),
     alt: 'Portfolio',
     title: 'Apex Strategies',
     slug: 'apex-strategies',
@@ -298,7 +298,7 @@ export const portfolioinfo = [
     Class: 'md:mt-0'
   },
   {
-    image: getImgPath('/images/portfolio/12.jpeg'),
+    image: getImgPath('/images/portfolio/12.jpg'),
     alt: 'Portfolio',
     title: 'Apex Strategies',
     slug: 'apex-strategies',
@@ -306,7 +306,7 @@ export const portfolioinfo = [
     Class: 'md:mt-0'
   },
   {
-    image: getImgPath('/images/portfolio/13.jpeg'),
+    image: getImgPath('/images/portfolio/13.jpg'),
     alt: 'Portfolio',
     title: 'Apex Strategies',
     slug: 'apex-strategies',
@@ -314,7 +314,7 @@ export const portfolioinfo = [
     Class: 'md:mt-0'
   },
   {
-    image: getImgPath('/images/portfolio/14.jpeg'),
+    image: getImgPath('/images/portfolio/14.jpg'),
     alt: 'Portfolio',
     title: 'Apex Strategies',
     slug: 'apex-strategies',
@@ -322,7 +322,7 @@ export const portfolioinfo = [
     Class: 'md:mt-0'
   },
   {
-    image: getImgPath('/images/portfolio/15.jpeg'),
+    image: getImgPath('/images/portfolio/15.jpg'),
     alt: 'Portfolio',
     title: 'Apex Strategies',
     slug: 'apex-strategies',
