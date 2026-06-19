@@ -34,12 +34,12 @@ const Hero = () => {
 
         {/* Tagline */}
         <p className="mt-4 text-lg sm:text-xl md:text-2xl font-semibold text-primary">
-          For Stronger Minds, Think Lavina Pratap Bhambhani
+          For Stronger Minds, Think Lavina
         </p>
 
         {/* Description */}
         <p className="mt-6 max-w-2xl mx-auto lg:mx-0 text-base sm:text-lg md:text-xl leading-relaxed text-grey dark:text-white/70">
-           Lavina Pratap Bhambhani is dedicated to advancing mental well-being through psychology, education, research, and personal development. Through evidence-based guidance, teaching, and mentorship, she empowers individuals to build emotional resilience, deepen self-awareness, and create meaningful, lasting positive change.
+           Lavina Pratap Bhambhani is dedicated to advancing mental well-being through psychology, education, research, and personal development. Through evidence-based guidance, teaching, and mentorship, She empowers individuals to build emotional resilience, deepen self-awareness, and create meaningful, lasting positive change.
         </p>
 
         {/* Buttons */}

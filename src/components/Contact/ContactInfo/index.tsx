@@ -21,7 +21,7 @@ const ContactInfo = () => {
             </div>
 
             <h3 className="text-2xl font-bold text-midnight_text dark:text-white">
-              Contact & Consultation
+              Contact for Consultation
             </h3>
 
             <p className="mt-4 leading-7 text-grey dark:text-white/60">
@@ -47,7 +47,7 @@ const ContactInfo = () => {
             </div>
 
             <h3 className="text-2xl font-bold text-midnight_text dark:text-white">
-              Research & Collaboration
+              Contact for Research & Collaboration
             </h3>
 
             <p className="mt-4 leading-7 text-grey dark:text-white/60">
@@ -56,10 +56,10 @@ const ContactInfo = () => {
             </p>
 
             <Link
-              href="/publications"
+              href="mailto:contact@lavinabhambhani.com"
               className="mt-6 inline-flex items-center gap-2 font-medium text-primary"
             >
-              Explore Publications
+              Send an Email
             </Link>
           </div>
 

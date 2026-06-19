@@ -56,7 +56,7 @@ export default function AboutPage() {
       </section>
 
       {/* Vision Section */}
-      <section className="bg-section py-16 md:py-20 dark:bg-darklight">
+      <section className="bg-section py-10 md:py-20 dark:bg-darklight">
         <div className="container mx-auto max-w-6xl px-5">
           <div className="mx-auto max-w-4xl text-center">
 
@@ -74,65 +74,24 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* Expertise */}
-      <section className="py-16 md:py-20">
+      <section className="bg-section py-2 md:py-2 dark:bg-darklight">
         <div className="container mx-auto max-w-6xl px-5">
+          <div className="mx-auto max-w-4xl text-center">
 
-          <div className="text-center">
             <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-midnight_text dark:text-white">
-              Areas of Expertise
+              Mission
             </h2>
-          </div>
 
-          <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
-
-            {/* Card 1 */}
-            <div className="group rounded-2xl border border-border bg-white p-6 text-center shadow-sm transition-all duration-500 hover:-translate-y-2 hover:border-primary/30 hover:shadow-xl dark:border-white/10 dark:bg-darklight">
-              <h3 className="text-xl font-bold text-primary">
-                Psychology
-              </h3>
-
-              <p className="mt-3 text-sm leading-7 text-grey dark:text-white/60">
-               Supporting mental well-being through psychological insight, emotional resilience, self-awareness, and personal growth.
-              </p>
-            </div>
-
-            {/* Card 2 */}
-            <div className="group rounded-2xl border border-border bg-white p-6 text-center shadow-sm transition-all duration-500 hover:-translate-y-2 hover:border-primary/30 hover:shadow-xl dark:border-white/10 dark:bg-darklight">
-              <h3 className="text-xl font-bold text-primary">
-                Research & Writing
-              </h3>
-
-              <p className="mt-3 text-sm leading-7 text-grey dark:text-white/60">
-                Advancing knowledge through academic research, publications, interdisciplinary studies, and professional writing.
-              </p>
-            </div>
-
-            {/* Card 3 */}
-            <div className="group rounded-2xl border border-border bg-white p-6 text-center shadow-sm transition-all duration-500 hover:-translate-y-2 hover:border-primary/30 hover:shadow-xl dark:border-white/10 dark:bg-darklight">
-              <h3 className="text-xl font-bold text-primary">
-                Education
-              </h3>
-
-              <p className="mt-3 text-sm leading-7 text-grey dark:text-white/60">
-                Fostering learning through teaching, mentorship, academic development, and research-driven education.
-              </p>
-            </div>
-
-            {/* Card 4 */}
-            <div className="group rounded-2xl border border-border bg-white p-6 text-center shadow-sm transition-all duration-500 hover:-translate-y-2 hover:border-primary/30 hover:shadow-xl dark:border-white/10 dark:bg-darklight">
-              <h3 className="text-xl font-bold text-primary">
-                Mentorship & Development
-              </h3>
-
-              <p className="mt-3 text-sm leading-7 text-grey dark:text-white/60">
-                Guiding individuals toward greater confidence, self-awareness, resilience, and lifelong growth.
-              </p>
-            </div>
+            <p className="mt-8 text-base md:text-lg leading-8 text-grey dark:text-white/70">
+           To provide transformative mind coaching that rewires thinking, breaks inner barriers, and cultivates lasting personal growth.
+            </p>
 
           </div>
         </div>
       </section>
+
+    
+    
 
       {/* Quote */}
       <section className="pb-16 md:pb-20">

@@ -2,47 +2,71 @@
 'use client'
 
 import { Icon } from '@iconify/react'
+import { useState } from 'react'
+
+
 
 const services = [
   {
     icon: 'mdi:brain',
-    title: 'Psychology Coaching',
+    title: 'Mind Coaching',
     description:
-      ' Helping individuals strengthen emotional resilience, develop healthy thought patterns, and navigate life’s challenges with confidence.',
-  },
-  {
-    icon: 'mdi:heart-outline',
-    title: 'Emotional Clarity',
-    description:
-      'Develop greater self-awareness, strengthen emotional intelligence, and navigate life with clarity, balance, and confidence.',
-  },
-  {
-    icon: 'mdi:account-group-outline',
-    title: 'Personal Development',
-    description:
-      'Discover your strengths, overcome personal barriers, and cultivate the skills needed for meaningful personal and professional growth.',
+      'Helping individuals strengthen emotional resilience, develop healthy thought patterns, and navigate life’s challenges with confidence.',
+    subServices: [
+      {
+        title: 'Emotional Clarity',
+        image: '/images/services/emotional-clarity.png',
+        description:
+          'Develop greater self-awareness, strengthen emotional intelligence, and navigate life with clarity, balance, and confidence.',
+      },
+      {
+        title: 'Personal Development',
+        image: '/images/services/personal-development.jpg',
+        description:
+          'Discover your strengths, overcome personal barriers, and cultivate the skills needed for meaningful personal and professional growth.',
+      },
+    ],
   },
   {
     icon: 'mdi:school-outline',
     title: 'Education & Mentorship',
     description:
       'Guidance, mentorship, and learning experiences designed to foster lifelong growth, academic excellence, and professional development.',
+    subServices: [
+      {
+        title: 'Research',
+        image: '/images/services/research.png',
+        description:
+          'Academic research focused on psychology, education, innovation, and evidence-based practices.',
+      },
+      {
+        title: 'Publications',
+        image: '/images/services/publications.png',
+        description:
+          'Books, articles, papers, and scholarly contributions that support learning and professional growth.',
+      },
+      
+    ],
   },
   {
-    icon: 'mdi:lightbulb-outline',
-    title: 'Professional Consultation ',
+    icon: 'mdi:account-tie-outline',
+    title: 'Professional Consultation',
     description:
-      'Evidence-based guidance and practical strategies tailored to individual, academic, and professional development needs.',
-  },
-  {
-    icon: 'mdi:book-open-page-variant-outline',
-    title: 'Research & Publications',
-    description:
-      'Contributing to the field through academic research, publications, books, articles, and interdisciplinary scholarship.',
+      'One-on-one coaching and consultation specifically designed for individual personal, academic, and professional growth.',
+    subServices: [
+      {
+        title: '1-on-1 Coaching',
+        image: '/images/services/consultation.png',
+        description:
+          'Personalized coaching sessions tailored to an individual’s goals, challenges, and growth journey.',
+      },
+    ],
   },
 ]
 
 const Services = () => {
+  const [selectedService, setSelectedService] = useState<any>(null)
+
   return (
     <section
       className="bg-section py-28 dark:bg-darklight lg:py-28"
@@ -81,33 +105,101 @@ Helping Individuals Build Emotional Resilience, Clarity & Personal Growth
 
         {/* Services Grid */}
         <div className="grid gap-7 md:grid-cols-2 lg:grid-cols-3">
-          {services.map((service, index) => (
-            <div
-              key={index}
-              data-aos="fade-up"
-              data-aos-delay={index * 100}
-              data-aos-duration="1000"
-              className="rounded-2xl bg-white p-8 shadow-service transition-all duration-300 hover:-translate-y-2 hover:shadow-xl dark:bg-darkmode"
-            >
-              <div className="mb-6 flex h-14 w-14 items-center justify-center rounded-xl bg-primary/10">
-                <Icon
-                  icon={service.icon}
-                  width={28}
-                  className="text-primary"
-                />
-              </div>
+  {services.map((service, index) => (
+    <div
+      key={index}
+      className="rounded-2xl bg-white p-8 shadow-service transition-all duration-300 hover:-translate-y-2 hover:shadow-xl dark:bg-darkmode"
+    >
+      <div className="mb-6 flex h-14 w-14 items-center justify-center rounded-xl bg-primary/10">
+        <Icon
+          icon={service.icon}
+          width={28}
+          className="text-primary"
+        />
+      </div>
 
-              <h3 className="mb-4 text-2xl font-bold text-midnight_text dark:text-white">
-                {service.title}
-              </h3>
+      <h3 className="mb-4 text-2xl font-bold text-midnight_text dark:text-white">
+        {service.title}
+      </h3>
+
+      <p className="mb-6 leading-relaxed text-grey dark:text-white/60">
+        {service.description}
+      </p>
+
+     <button
+  onClick={() => setSelectedService(service)}
+  className="rounded-lg bg-primary px-5 py-2 text-white transition hover:opacity-90"
+>
+  Learn More
+</button>
+    </div>
+  ))}
+</div>
+      </div>
+      {selectedService && (
+  <div
+    className="fixed inset-0 z-[9999] flex items-center justify-center bg-black/60 p-4 backdrop-blur-sm"
+    onClick={() => setSelectedService(null)}
+  >
+    <div
+      onClick={(e) => e.stopPropagation()}
+      className="relative max-h-[90vh] w-full max-w-4xl overflow-y-auto rounded-3xl bg-white shadow-2xl dark:bg-darkmode"
+    >
+      {/* Close Button */}
+      <button
+        onClick={() => setSelectedService(null)}
+        className="absolute right-5 top-5 z-10 flex h-10 w-10 items-center justify-center rounded-full bg-black/10 text-xl transition hover:bg-black/20"
+      >
+        ✕
+      </button>
+
+      {/* Header */}
+      <div className="border-b border-gray-100 p-8 text-center">
+        <div className="mx-auto mb-4 flex h-16 w-16 items-center justify-center rounded-2xl bg-primary/10">
+          <Icon
+            icon={selectedService.icon}
+            width={32}
+            className="text-primary"
+          />
+        </div>
+
+        <h3 className="text-3xl font-bold text-midnight_text dark:text-white">
+          {selectedService.title}
+        </h3>
+
+        <p className="mt-3 text-grey dark:text-white/60">
+          {selectedService.description}
+        </p>
+      </div>
+
+      {/* Sub Services */}
+      <div className="grid gap-8 p-8 md:grid-cols-2">
+        {selectedService.subServices.map((item: any, idx: number) => (
+          <div
+            key={idx}
+            className="overflow-hidden rounded-2xl border border-gray-100 bg-white shadow-md dark:bg-darklight"
+          >
+            <img
+              src={item.image}
+              alt={item.title}
+              className="h-56 w-full object-cover"
+            />
+
+            <div className="p-6">
+              <h4 className="mb-3 text-xl font-bold text-midnight_text dark:text-white">
+                {item.title}
+              </h4>
 
               <p className="leading-relaxed text-grey dark:text-white/60">
-                {service.description}
+                {item.description}
               </p>
             </div>
-          ))}
-        </div>
+          </div>
+        ))}
       </div>
+    </div>
+  </div>
+)}
     </section>
   )
 }
