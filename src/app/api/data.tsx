@@ -224,16 +224,6 @@ export const portfolioinfo = [
     Class: 'md:mt-24'
   },
 
- 
-
-  {
-    image: getImgPath('/images/portfolio/7.jpeg'),
-    alt: 'Portfolio',
-    title: 'Apex Strategies',
-    slug: 'apex-strategies',
-    info: 'Designation',
-    Class: 'md:mt-0'
-  },
   {
     image: getImgPath('/images/portfolio/11.jpeg'),
     alt: 'Portfolio',
@@ -243,7 +233,7 @@ export const portfolioinfo = [
     Class: 'md:mt-0'
   },
   {
-    image: getImgPath('/images/portfolio/14.jpeg'),
+    image: getImgPath('/images/portfolio/15.jpeg'),
     alt: 'Portfolio',
     title: 'Apex Strategies',
     slug: 'apex-strategies',
@@ -251,7 +241,7 @@ export const portfolioinfo = [
     Class: 'md:mt-0'
   },
   {
-    image: getImgPath('/images/portfolio/15.jpeg'),
+    image: getImgPath('/images/portfolio/16.jpeg'),
     alt: 'Portfolio',
     title: 'Apex Strategies',
     slug: 'apex-strategies',
