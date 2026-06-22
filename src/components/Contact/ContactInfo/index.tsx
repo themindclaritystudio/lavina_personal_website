@@ -30,7 +30,7 @@ const ContactInfo = () => {
             </p>
 
             <Link
-              href="mailto:contact@lavinabhambhani.com"
+              href="mailto:lavina@themindclaritystudio.com"
               className="mt-6 inline-flex items-center gap-2 font-medium text-primary"
             >
               Send an Email
@@ -56,7 +56,7 @@ const ContactInfo = () => {
             </p>
 
             <Link
-              href="mailto:contact@lavinabhambhani.com"
+              href="mailto:lavina@themindclaritystudio.com"
               className="mt-6 inline-flex items-center gap-2 font-medium text-primary"
             >
               Send an Email

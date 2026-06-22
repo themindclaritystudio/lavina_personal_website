@@ -44,10 +44,10 @@ const Location = () => {
             </h3>
 
             <Link
-              href="mailto:contact@lavinabhambhani.com"
+              href="mailto:lavina@themindclaritystudio.com"
               className="block text-lg font-medium text-white underline underline-offset-4"
             >
-              contact@lavinabhambhani.com
+              lavina@themindclaritystudio.com
             </Link>
 
             <p className="mt-4 text-white/70">
