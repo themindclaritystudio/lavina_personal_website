@@ -28,7 +28,7 @@ const ContactForm = () => {
             </p>
 
           <form
-  action="https://formsubmit.co/themindclaritystudiobylavina@gmail.com"
+  action="https://formsubmit.co/lavina@themindclaritystudio.com"
   method="POST"
   className="mt-10 space-y-5"
 >

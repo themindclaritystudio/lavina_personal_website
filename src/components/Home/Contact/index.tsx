@@ -41,7 +41,7 @@ const Contactform = () => {
                   Email
                 </p>
                 <p className="mt-2 text-lg text-midnight_text dark:text-white">
-                  contact@lavinabhambhani.com
+                  lavina@themindclaritystudio.com
                 </p>
               </div>
 
