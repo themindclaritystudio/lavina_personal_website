@@ -377,5 +377,18 @@ Scientific advancements and modern vision holds a hand over every field of techn
 With the rise in competition and the pressure that comes along with it, Doping is now a serious concern at international level in sportphysiology. Doping is the abuse of drugs which expands one's red platelets and permits the body to get more oxygen to muscles and increase the stamina of sport player. This isn’t just concerned with the wellbeing of the players or the risk involved in their usage but also with theunfairness that it brings into the spirit of sports. This is legitimately influencing games, rivalries around the globe. Looking at the historical backdrop of doping, the various classes of substances utilized for doping, reactions of doping and treatment of influenced competitors, we find its strong roots in this system. Medications have continued creating with "impels" in doping systems. These are driven by improved adjustment testing, recognizable proof methods and advances in sensible research that, can provoke the disclosure and utilization of substances that may later be restricted by various games affiliation. The continuous upgradation of drugs further enhance the results of doping. There are seen a rundown quantities of perilous symptoms that, happened because of blood doping like myocardium, stroke, diseases similar to HIV, hepatitis and so forth. This review article briefs abuse of doping drugs, side effects, their treatments and laws related to them.
     `,
   },
+  {
+    slug: 'handwriting-psychological-profiling',
+    image: '/images/publication.png', // Note: Placeholder or direct source as per your schema structure
+    title: 'Bridging Human Intuition and Artificial Intelligence: A Review of Psychological Profiling Through Handwriting',
+    date: 'December 26, 2025',
+    category: 'Psychology, Artificial Intelligence, Graphology',
+    info: 'Review Article',
+    description:
+      'This review examines the historical foundations, theoretical perspectives, and emerging digital approaches in handwriting-based psychological profiling.',
+    content: `
+Handwriting reflects the interplay of cognitive processes, motor coordination, and emotional expression, making it a meaningful medium for understanding psychological states. While traditional graphology relies on intuitive interpretation of visual writing features, its scientific validity has been widely debated. Recent advances in artificial intelligence allow handwriting to be analyzed through measurable kinematic patterns, offering improved objectivity and consistency. This review examines the historical foundations, theoretical perspectives, and emerging digital approaches in handwriting-based psychological profiling. It highlights the value of integrating human insight with computational precision to develop more ethical, reliable, and balanced models for interpreting personality through handwriting.
+    `,
+},
 ];
 
