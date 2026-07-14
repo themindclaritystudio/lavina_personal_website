@@ -1,5 +1,5 @@
-import { Inter } from "next/font/google"
 import type { Metadata } from "next"
+import { Inter } from "next/font/google"
 import "./globals.css"
 import Header from "@/components/Layout/Header"
 import Footer from "@/components/Layout/Footer"
@@ -62,6 +62,34 @@ export const metadata: Metadata = {
   creator: "Lavina Pratap Bhambhani",
   publisher: "Lavina Pratap Bhambhani",
 
+  // === ICONS & MANIFEST (Added) ===
+  icons: {
+    icon: [
+      {
+        url: "/favicon.ico",
+        sizes: "any",
+      },
+      {
+        url: "/favicon-32x32.png",
+        sizes: "32x32",
+        type: "image/png",
+      },
+      {
+        url: "/favicon-16x16.png",
+        sizes: "16x16",
+        type: "image/png",
+      },
+    ],
+    apple: [
+      {
+        url: "/apple-touch-icon.png",
+        sizes: "180x180",
+      },
+    ],
+    shortcut: "/favicon.ico",
+  },
+  manifest: "/site.webmanifest",
+
   openGraph: {
     title: "Lavina Pratap Bhambhani | Psychologist, Author & Mentor",
     description:
@@ -91,9 +119,17 @@ export const metadata: Metadata = {
     images: ["/images/logo.png"],
   },
 
+  // === Improved Robots ===
   robots: {
     index: true,
     follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1,
+    },
   },
 
   alternates: {
