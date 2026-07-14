@@ -6,6 +6,18 @@ import { Icon } from '@iconify/react'
 
 const experienceData = [
   
+  { 
+    year: '2026', 
+    title: 'Host & Facilitator, Discover Your Personality', 
+    image: '/images/portfolio/15.jpeg', 
+    description: 'Hosted the "Discover Your Personality, Transform Your Life" workshop at Hotel Radisson, Gandhidham in partnership with The Mind Clarity Studio, providing structured self-discovery framework loops for local professionals.' 
+  }, 
+  { 
+    year: '2025', 
+    title: 'Vice President, BNI Infinity Leadership Team 6.0', 
+    image: '/images/experience/22.jpeg', 
+    description: 'Appointed as Vice President for the BNI Infinity Leadership Team 6.0, collaborating with executive officers to foster high-impact business relations, expand referral ecosystems, and host regional networking summits at Hotel Radisson.' 
+  },
   {
     year: '2024',
     title: 'Startup Demo Day, Mehsana',
