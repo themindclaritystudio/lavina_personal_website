@@ -5,6 +5,7 @@ import { Icon } from '@iconify/react'
 
 
 const experienceData = [
+  
   {
     year: '2024',
     title: 'Startup Demo Day, Mehsana',
