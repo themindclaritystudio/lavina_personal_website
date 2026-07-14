@@ -12,58 +12,67 @@ const Footer = () => {
         <div className="grid gap-12 lg:grid-cols-[1.4fr_1fr_1fr]">
 
           {/* Brand */}
-        {/* Brand */}
-<div className="flex flex-col items-center text-center lg:items-start lg:text-left">
-  <Image
-    src={getImgPath('/images/logo/logo.png')}
-    alt="Lavina Pratap Bhambhani"
-    width={320}
-    height={140}
-    priority
-    className="h-auto w-auto max-h-32 lg:max-h-36 object-contain"
-  />
+          <div className="flex flex-col items-center text-center lg:items-start lg:text-left">
+            <Image
+              src={getImgPath('/images/logo/logo.png')}
+              alt="Lavina Pratap Bhambhani"
+              width={320}
+              height={140}
+              priority
+              className="h-auto w-auto max-h-32 lg:max-h-36 object-contain"
+            />
 
-  <p className=" max-w-sm text-sm leading-7 text-grey dark:text-white/70 sm:text-base">
-     Psychologist, Educator, Researcher, and Author dedicated to advancing mental well-being, emotional resilience, self-awareness, and lifelong learning.  
+            <p className="max-w-sm text-sm leading-7 text-grey dark:text-white/70 sm:text-base">
+              Psychologist, Educator, Researcher, and Author dedicated to advancing mental well-being, emotional resilience, self-awareness, and lifelong learning.  
+            </p>
 
-  </p>
+            {/* Social Links */}
+            <div className="mt-7 flex gap-5">
+              <Link
+                href="https://www.linkedin.com/in/lavina-pratap-bhambhani-0176051a9/"
+                aria-label="LinkedIn"
+                className="transition-transform duration-300 hover:-translate-y-1"
+              >
+                <Icon
+                  icon="mdi:linkedin"
+                  className="text-[30px] text-grey hover:text-primary"
+                />
+              </Link>
 
-  {/* Social Links */}
-  <div className="mt-7 flex gap-5">
-    <Link
-      href="https://www.linkedin.com/in/lavina-pratap-bhambhani-0176051a9/"
-      aria-label="LinkedIn"
-      className="transition-transform duration-300 hover:-translate-y-1"
-    >
-      <Icon
-        icon="mdi:linkedin"
-        className="text-[30px] text-grey hover:text-primary"
-      />
-    </Link>
+              <Link
+                href="https://www.instagram.com/lavina_bhambhani/"
+                aria-label="Instagram"
+                className="transition-transform duration-300 hover:-translate-y-1"
+              >
+                <Icon
+                  icon="mdi:instagram"
+                  className="text-[30px] text-grey hover:text-primary"
+                />
+              </Link>
 
-    <Link
-      href="https://www.instagram.com/lavina_bhambhani/"
-      aria-label="Instagram"
-      className="transition-transform duration-300 hover:-translate-y-1"
-    >
-      <Icon
-        icon="mdi:instagram"
-        className="text-[30px] text-grey hover:text-primary"
-      />
-    </Link>
+              <Link
+                href="https://www.facebook.com/lavina.bhambhani.77/"
+                aria-label="Facebook"
+                className="transition-transform duration-300 hover:-translate-y-1"
+              >
+                <Icon
+                  icon="mdi:facebook"
+                  className="text-[30px] text-grey hover:text-primary"
+                />
+              </Link>
 
-    <Link
-      href="https://www.facebook.com/lavina.bhambhani.77/"
-      aria-label="Facebook"
-      className="transition-transform duration-300 hover:-translate-y-1"
-    >
-      <Icon
-        icon="mdi:facebook"
-        className="text-[30px] text-grey hover:text-primary"
-      />
-    </Link>
-  </div>
-</div>
+              <Link
+                href="https://www.youtube.com/@TheMindClarityStudioByLavina"
+                aria-label="YouTube"
+                className="transition-transform duration-300 hover:-translate-y-1"
+              >
+                <Icon
+                  icon="mdi:youtube"
+                  className="text-[30px] text-grey hover:text-primary"
+                />
+              </Link>
+            </div>
+          </div>
 
           {/* Quick Links */}
           <div className="text-center">
@@ -142,8 +151,7 @@ const Footer = () => {
             </h3>
 
             <p className="leading-relaxed text-grey dark:text-white/70">
-                Interested in psychology, mentorship, speaking engagements, research collaborations, or educational initiatives? 
-
+              Interested in psychology, mentorship, speaking engagements, research collaborations, or educational initiatives? 
             </p>
 
             <Link
@@ -164,8 +172,7 @@ const Footer = () => {
       <div className="border-t border-neutral-200 dark:border-white/10">
         <div className="container mx-auto max-w-7xl px-5 py-6">
           <p className="text-center text-sm text-grey dark:text-white/50">
-            © {new Date().getFullYear()} Lavina Pratap Bhambhani. All Rights
-            Reserved.
+            © {new Date().getFullYear()} Lavina Pratap Bhambhani. All Rights Reserved.
           </p>
         </div>
       </div>
